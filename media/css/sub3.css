@@ -1,0 +1,104 @@
+/* font-family: 'Mochiy Pop P One', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif; */
+
+
+#imgBG{
+	position:fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100;
+}
+
+.down{display: block; font-size: 20px; position: absolute; left:50%; margin-left: -50px; bottom: 10%; animation:ani 1s infinite  alternate; font-family: 'PT Sans Narrow', sans-serif;}
+.down::after{content: ''; display: block; background: url(../images/icon.png) center no-repeat; width: 70px; height: 70px; margin: 20px auto 0;}
+@keyframes ani {
+	0% { transform:scale(1); opacity:1; color:#fff;}
+	100% { transform:scale(1.2); opacity:0.8; color:#888;}
+}	
+
+/* 와이드 pc  */
+.videoBox{width:100%;height:100%; overflow:hidden; position:absolute}
+#content{font-family: 'PT Sans Narrow';}
+#content h2{font-size: 5rem; color: #fff; letter-spacing: 3px; font-family: 'Mochiy Pop P One', sans-serif; position:absolute; top: 50%; left: 50%; background: linear-gradient(to right bottom, #f3cb1c, #fff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; transform: translate(-50%, -50%);}
+.clip{overflow: hidden; background: rgba(0,0,0,.8); padding-bottom: 70px; margin-bottom: 200px;}
+.clip h3{color: #fff; text-align: center; font-size: 3.5rem; padding: 100px 0 80px;}
+.clip .clip_part{width: 46%; margin: 0 1% 0 3%; float: left;}
+.clip .clip_part:nth-child(3){margin: 0 3% 0 1%;}
+.clip .contentArea{width: 100%;}
+.clip .contentArea .imgPart{margin-bottom: 20px; border-bottom: 3px solid #f3cb1c; padding-bottom: 50px;}
+.clip .contentArea .imgPart a{display: block; position: relative;}
+.clip .contentArea .imgPart img{width: 100%; border-radius: 25px;}
+.clip .contentArea .imgPart span{display: block; transition: all .2s; width: 100px; height: 100px; background: rgba(255,255,255,.6); border-radius: 50%;  position: absolute; top: 50%; left: 50%; margin: -50px 0 0 -50px; }
+.clip .contentArea .imgPart span::after{display: block; content: '';  border-top: 30px solid transparent; border-left: 50px solid #333; border-bottom: 30px solid transparent; position: absolute; top: 20px; left: 32px; width: 0; height: 0; transition: .5s; opacity: .7;}
+.clip .contentArea .imgPart a:hover span{transform: rotate(360deg); background: rgba(0,0,0,.7);}
+.clip .contentArea .imgPart a:hover span::after{border-left: 50px solid rgba(243,203,28,.9);}
+.clip .contentArea h4{color: #fff; font-size: 2.1rem; margin-bottom: 10px;}
+.clip .contentArea p{color: #fff; text-align: justify; font-size: 1.3rem;}
+
+.clip2{overflow: hidden; margin-bottom: 210px; background: rgba(0,0,0,.8); padding: 0 30px 70px;}
+.clip2 h3{color: #fff; text-align: center; font-size: 3.5rem; padding: 100px 0 80px;}
+.clip2 .clip_part{width: 25%; float: left;}
+.clip2 .contentArea{width: 96%; margin: 0 auto; position: relative;}
+.clip2 .contentArea .imgPart{padding-bottom: 50px; border-bottom: 3px solid rgba(243,203,28,.9);}
+.clip2 .contentArea .imgPart a{display: block; position: relative;}
+.clip2 .contentArea .imgPart img{width: 100%; border-radius: 25px;}
+.clip2 .contentArea .imgPart span{display: block; transition: all .2s; width: 100px; height: 100px; background: rgba(255,255,255,.6); border-radius: 50%;  position: absolute; top: 50%; left: 50%; margin: -50px 0 0 -50px; }
+.clip2 .contentArea .imgPart span::after{display: block; content: '';  border-top: 30px solid transparent; border-left: 50px solid #333; border-bottom: 30px solid transparent; position: absolute; top: 20px; left: 32px; width: 0; height: 0; transition: .5s; opacity: .7;}
+.clip2 .contentArea .imgPart a:hover span{transform: rotate(360deg); background: rgba(0,0,0,.7);}
+.clip2 .contentArea .imgPart a:hover span::after{border-left: 50px solid rgba(243,203,28,.9);}
+.clip2 .contentArea h4{color: #fff; font-size: 1.7rem; margin: 30px 0 0; text-align: center;}
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+}
+    
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+#content h2{font-size: 4rem;}
+.clip{padding-bottom: 70px; margin-bottom: 100px;}
+.clip h3{font-size: 3.2rem; padding: 90px 0 50px;}
+.clip .clip_part{width: 60%; margin: 0 20% 80px; float: none;}
+.clip .clip_part:nth-child(3){margin: 0 auto;}
+.clip .contentArea h4{font-size: 1.8rem; margin-bottom: 10px;}
+.clip .contentArea p{font-size: 1rem;}
+
+.clip2{padding-bottom: 30px; margin-bottom: 100px;}
+.clip2 .contentArea{margin: 0 auto 50px;}
+.clip2 h3{font-size: 3.2rem; padding: 50px 0;}
+.clip2 .clip_part{width: 50%;}
+.clip2 .contentArea .imgPart{padding-bottom: 40px;}
+.clip2 .contentArea h4{font-size: 1.3rem; margin-bottom: 10px;}
+}
+    
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+#content h2{font-size: 3.5rem;}
+.clip h3{font-size: 2.9rem; padding: 70px 0 40px;}
+.clip .clip_part{width: 70%; margin: 0 15% 50px;}
+.clip .contentArea h4{font-size: 1.6rem;}
+.clip .contentArea p{font-size: 1rem;}
+
+.clip2 h3{font-size: 2.9rem; padding: 40px 0;}
+.clip2 .clip_part{width: 70%; margin: 0 15%; float: none;}
+.clip2 .clip_part:nth-of-type(1){display: none;}
+}
+    
+/* 모바일 */
+@media screen and (max-width:640px) {
+#content h2{font-size: 3rem;}
+.clip{margin-bottom: 70px;}
+.clip .contentArea .imgPart{padding-bottom: 30px;}
+
+.clip2{margin-bottom: 70px; padding-bottom: 0;}
+.clip2 .clip_part:nth-of-type(4){display: none;}
+.clip2 .contentArea .imgPart{padding-bottom: 20px;}
+.clip2 .contentArea h4{margin: 20px 0 0;}
+}
+

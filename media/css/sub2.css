@@ -1,0 +1,135 @@
+/* font-family: 'Mochiy Pop P One', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif; */
+
+
+#imgBG{
+	position:fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100;
+}
+
+.down{display: block; font-size: 20px; position: absolute; left:50%; margin-left: -50px; bottom: 10%; animation:ani 1s infinite  alternate; font-family: 'PT Sans Narrow', sans-serif;}
+.down::after{content: ''; display: block; background: url(../images/icon.png) center no-repeat; width: 70px; height: 70px; margin: 20px auto 0;}
+@keyframes ani {
+	0% { transform:scale(1); opacity:1; color:#fff;}
+	100% { transform:scale(1.2); opacity:0.8; color:#888;}
+}	
+
+/* 와이드 pc  */
+.videoBox{width:100%;height:100%; overflow:hidden; position:absolute}
+#content{font-family: 'PT Sans Narrow'; padding-bottom: 80px;}
+#content h2{font-size: 5rem; color: #fff; letter-spacing: 3px; font-family: 'Mochiy Pop P One', sans-serif; position:absolute; top: 50%; left: 50%; background: linear-gradient(to right bottom, #7dc056, #fff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; transform: translate(-50%, -50%);}
+.characters{padding-top: 90px;}
+.chimg{margin: 50px 3%;}
+.chimg ul{overflow:hidden; width: 100%;}
+.chimg li{float: left; width: 30%; padding-bottom: 15px;}
+.chimg li:nth-child(1){margin: 0 1% 0 3%;}
+.chimg li:nth-child(2){margin: 0 1%;}
+.chimg li:nth-child(3){margin: 0 3% 0 1%;}
+.chimg img{width: 100%;  border-radius: 30px;}
+
+.joy{border: 15px solid #f3cb1c; box-sizing: border-box; background: rgba(0,0,0,.8); overflow: hidden; padding-top: 50px; margin-bottom: 200px;}
+.joy .txt{float: left; width: 74%; margin-bottom: 200px;}
+.joy .txt h3{font-size: 3rem; text-align: right; font-family: 'Mochiy Pop P One', sans-serif; color: #f3cb1c; padding: 30px 0 30px;}
+.joy .txt p{font-size: 1.5rem; color: #fff; text-align: justify; padding: 30px 0 30px 50px;}
+.joy > img{width: 20%; float: right; margin: 0 3%;}
+
+.Sadness{border: 15px solid #1e4ea2; box-sizing: border-box; background: rgba(0,0,0,.8); overflow: hidden; padding-top: 50px; margin-bottom: 200px;}
+.Sadness .txt{float: right; width: 74%; margin-bottom: 200px;}
+.Sadness .txt h3{font-size: 3rem; text-align: left; font-family: 'Mochiy Pop P One', sans-serif; color: #1e4ea2; padding: 30px 0 30px;}
+.Sadness .txt p{font-size: 1.5rem; color: #fff; text-align: justify; padding: 30px 50px 30px 0;}
+.Sadness > img{width: 20%; float: left; margin: 0 3%;}
+
+.Disgust{border: 15px solid #368834; box-sizing: border-box; background: rgba(0,0,0,.8); overflow: hidden; padding-top: 50px; margin-bottom: 200px;}
+.Disgust .txt{float: left; width: 74%; margin-bottom: 200px;}
+.Disgust .txt h3{font-size: 3rem; text-align: right; font-family: 'Mochiy Pop P One', sans-serif; color: #368834; padding: 30px 0 30px;}
+.Disgust .txt p{font-size: 1.5rem; color: #fff; text-align: justify; padding: 30px 0 30px 50px;}
+.Disgust > img{width: 20%; float: right; margin: 0 3%;}
+
+.Fear{border: 15px solid #995ca9; box-sizing: border-box; background: rgba(0,0,0,.8); overflow: hidden; padding-top: 50px; margin-bottom: 200px;}
+.Fear .txt{float: right; width: 74%; margin-bottom: 200px;}
+.Fear .txt h3{font-size: 3rem; text-align: left; font-family: 'Mochiy Pop P One', sans-serif; color: #995ca9; padding: 30px 0 30px;}
+.Fear .txt p{font-size: 1.5rem; color: #fff; text-align: justify; padding: 30px 50px 30px 0;}
+.Fear > img{width: 20%; float: left; margin: 0 3%;}
+
+.Anger{border: 15px solid #c8222c; box-sizing: border-box; background: rgba(0,0,0,.8); overflow: hidden; padding-top: 50px; margin-bottom: 200px;}
+.Anger .txt{float: left; width: 74%; margin-bottom: 200px;}
+.Anger .txt h3{font-size: 3rem; text-align: right; font-family: 'Mochiy Pop P One', sans-serif; color: #c8222c; padding: 30px 0 30px;}
+.Anger .txt p{font-size: 1.5rem; color: #fff; text-align: justify; padding: 30px 0 30px 50px;}
+.Anger > img{width: 20%; float: right; margin: 0 3%;}
+
+.Bingbong{border: 15px solid #dd96b4; box-sizing: border-box; background: rgba(0,0,0,.8); overflow: hidden; padding-top: 50px; margin-bottom: 200px;}
+.Bingbong .txt{float: right; width: 74%; margin-bottom: 200px;}
+.Bingbong .txt h3{font-size: 3rem; text-align: left; font-family: 'Mochiy Pop P One', sans-serif; color: #dd96b4; padding: 30px 0 30px;}
+.Bingbong .txt p{font-size: 1.5rem; color: #fff; text-align: justify; padding: 30px 50px 30px 0;}
+.Bingbong > img{width: 20%; float: left; margin: 0 3%;}
+
+.Riley{border: 15px solid #796250; box-sizing: border-box; background: rgba(0,0,0,.8); overflow: hidden; padding-top: 50px; margin-bottom: 130px;}
+.Riley .txt{float: left; width: 74%; margin-bottom: 200px;}
+.Riley .txt h3{font-size: 3rem; text-align: right; font-family: 'Mochiy Pop P One', sans-serif; color: #796250; padding: 30px 0 30px;}
+.Riley .txt p{font-size: 1.5rem; color: #fff; text-align: justify; padding: 30px 0 30px 50px;}
+.Riley > img{width: 20%; float: right; margin: 0 3%;}
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+.joy .txt, .Sadness .txt, .Disgust .txt, .Fear .txt, .Anger .txt, .Bingbong .txt, .Riley .txt{margin-bottom: 100px;}
+}
+    
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+#content h2{font-size: 4rem;}
+.joy, .Sadness,  .Disgust, .Fear, .Anger, .Bingbong, .Riley{margin-bottom: 110px;}
+.joy .txt, .Sadness .txt, .Disgust .txt, .Fear .txt, .Anger .txt, .Bingbong .txt, .Riley .txt{margin-bottom: 70px;}
+.characters .txt p{font-size: 1.3rem;}
+.chimg li{width: 28.66%;}
+.chimg li:nth-child(1){margin: 0 1% 0 5%;}
+.chimg li:nth-child(2){margin: 0 1%;}
+.chimg li:nth-child(3){margin: 0 5% 0 1%;}
+}
+    
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+#content {padding-bottom: 40px;}
+#content h2{font-size: 3.5rem;}
+.joy{margin-bottom: 80px; padding-top: 30px; border: 7px solid #f3cb1c;}
+.Sadness{margin-bottom: 80px; padding-top: 30px; border: 7px solid #1e4ea2;}
+.Disgust{margin-bottom: 80px; padding-top: 30px; border: 7px solid #368834;}
+.Fear{margin-bottom: 80px; padding-top: 30px; border: 7px solid #995ca9;}
+.Anger {margin-bottom: 80px; padding-top: 30px; border: 7px solid #c8222c;}
+.Bingbong{margin-bottom: 80px; padding-top: 30px; border: 7px solid #dd96b4;}
+.Riley{margin-bottom: 80px; padding-top: 30px; border: 7px solid #796250;}
+
+
+
+
+.joy .txt h3, .Sadness .txt  h3,  .Disgust .txt  h3, .Fear .txt  h3, .Anger .txt  h3, .Bingbong .txt  h3, .Riley .txt  h3{font-size: 2.5rem; text-align: center; padding-bottom: 10px;}
+.joy .txt p, .Sadness .txt p,  .Disgust .txt p, .Fear .txt p, .Anger .txt p, .Bingbong .txt p, .Riley .txt p{font-size: 1.2rem; line-height: 1.6em; padding: 20px 30px;}
+.joy .txt, .Sadness .txt, .Disgust .txt, .Fear .txt, .Anger .txt, .Bingbong .txt, .Riley .txt{float: none; width: 100%; margin-bottom: 30px;}
+.chimg li{width: 46%;}
+.chimg li:nth-child(1){display: none;}
+.chimg li:nth-child(2){margin: 0 1% 0 3%;}
+.chimg li:nth-child(3){margin: 0 3% 0 1%;}
+.joy > img, .Sadness > img, .Disgust > img, .Fear > img, .Anger > img, .Bingbong > img, .Riley > img{display: none;}
+
+
+}
+    
+/* 모바일 */
+@media screen and (max-width:640px) {
+#content h2{font-size: 3rem;}
+.joy, .Sadness,  .Disgust, .Fear, .Anger, .Bingbong, .Riley{margin-bottom: 50px; padding-top: 15px;}
+.joy .txt h3, .Sadness .txt  h3,  .Disgust .txt  h3, .Fear .txt  h3, .Anger .txt  h3, .Bingbong .txt  h3, .Riley .txt  h3{font-size: 2rem; padding: 0;}
+.joy .txt p, .Sadness .txt p,  .Disgust .txt p, .Fear .txt p, .Anger .txt p, .Bingbong .txt p, .Riley .txt p{font-size: 1rem; padding: 20px 20px 10px;}
+.chimg {margin: 30px 2%;}
+.chimg li{float: none;}
+.chimg li:nth-child(2){display: none;}
+.chimg li:nth-child(3){width: 60%; margin: 0 20%;}
+
+}

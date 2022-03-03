@@ -1,0 +1,16 @@
+.policy{font-family: 'Noto Sans KR', sans-serif;}
+.policy h2{font-weight: 700; font-size: 2rem; text-align: center; margin: 40px 0 30px;}
+.policy .txt{font-size: 1.2rem; text-align: center; margin-bottom: 50px; line-height: 1.6em;}
+.policy .txt span{color: #0c4da2; font-weight: 700; text-align: center;}
+.policy ul{overflow: hidden; margin: 0 4% 50px;}
+.policy li{float: left; width: 31.33%;}
+.policy li:nth-child(2){margin: 0 2%;}
+.policy img{width: 100%;}
+.policy h3{font-size: 1.2rem; text-align: center; margin: 10px 0 15px; color: #186bb2;}
+.policy p{margin-bottom: 5px; font-size: 1rem;}
+
+.safety{font-family: 'Noto Sans KR', sans-serif; margin: 0 4% 50px;}
+.safety li{margin-bottom: 25px;}
+.safety li:before{content: ''; background: #0c4da2; position: relative; top: 32px; left: 0; width: 20px; height: 3px; display: block;}
+.safety h3{font-weight: 700; text-align: left; font-size: 1.4rem; margin-bottom: 15px;}
+.safety p{font-size: 1.1rem; line-height: 1.6em; text-align: justify;}

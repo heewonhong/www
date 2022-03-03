@@ -1,0 +1,17 @@
+/* 채용절차 */
+.office{font-family: 'Noto Sans KR', sans-serif;}
+.office h2{font-weight: 700; font-size: 2rem; text-align: center; margin: 40px 0 30px;}
+.office > p{font-size: 1.2rem; text-align: center; margin-bottom: 50px; line-height: 1.6em;}
+.office .step{margin-bottom: 50px;}
+.office .step li{width: 100%; margin-bottom: 30px; padding: 20px 0;}
+.office .step li:nth-of-type(2n+1){background: #f5f5f5;}
+.office .step dl{margin: 0 4%;}
+.office .step dt{font-weight: 700; font-size: 1.4rem; margin-bottom: 15px;}
+.office .step dd{font-size: 1.2rem; line-height: 1.6em; letter-spacing: .7px; margin-bottom: 10px; text-align: justify;}
+.office .step li p{margin: 0 4%; font-size: 1.1rem; line-height: 1.6em; letter-spacing: .7px; color: #186bb2;}
+
+ /* 지원자격 */
+ .office .txt{margin-bottom: 50px;}
+ .office .txt dl{ margin: 0 4%;}
+ .office .txt dt{font-size: 1.3rem; font-weight: 700; color: #186bb2; margin-bottom: 10px;}
+ .office .txt dd{display: block; color: #666; font-size: 1.1rem; line-height: 1.6em; letter-spacing: .7px; margin-top: 10px;}

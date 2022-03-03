@@ -1,0 +1,14 @@
+/* font-family: 'Noto Sans KR', sans-serif; font-weight:700;
+font-family: 'Roboto', sans-serif; */
+
+/* 비주얼영역 */
+.visual{font-family: 'Noto Sans KR', sans-serif; font-weight: 400; position: relative; height: 200px; background: url(../images/visual.jpg) no-repeat center; margin-top: 35px; text-align: center; background-size: cover;} 
+.visual h3{color: #fff; font-size: 1.8rem; font-weight: 700; position: absolute; top: 33%; left: 0; width: 100%;}
+.visual p{color: #fff; position: absolute; top: 53%; left: 0; width: 100%; font-size: 1rem;}
+
+/* 탭메뉴 */
+#tab_menu{font-family: 'Noto Sans KR', sans-serif;}
+#tab_menu ul{overflow: hidden; margin-bottom: 50px;}
+#tab_menu li{width: 50%; float: left; text-align: center; font-size: 1.3rem; background: #f9f9f9;}
+#tab_menu a{display: block; padding: 10px 0 10px;}
+#tab_menu .current{background: #0c4da2; color: #fff;}

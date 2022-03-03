@@ -1,0 +1,20 @@
+/* 인재상 */
+.recruit{font-family: 'Noto Sans KR', sans-serif;}
+.recruit h2{font-weight: 700; font-size: 2rem; text-align: center; margin: 40px 0 30px;}
+.recruit > p{font-size: 1.2rem; margin-top: 10px; text-align: center; margin-bottom: 50px; line-height: 1.6em;}
+.recruit span{color: #0c4da2; font-weight: 700;}
+.recruit .rec01{margin-bottom: 100px;}
+.recruit .rec01 li{margin: 0 4%; position: relative; box-shadow: 2px 2px 10px #999;}
+.recruit .rec01 li:nth-child(1){width: 92%; margin-bottom: 30px; height: 200px; background: url(../images/rec01x2.png) center no-repeat; background-size: cover;}
+.recruit .rec01 li:nth-child(2){width: 92%; margin-bottom: 30px; height: 200px; background: url(../images/rec02x2.png) center no-repeat; background-size: cover;}
+.recruit .rec01 li:nth-child(3){width: 92%; height: 200px; background: url(../images/rec03x2.png) center no-repeat; background-size: cover;}
+.recruit .rec01 h3{font-weight: 700; text-align: center; color: #fff; font-size: 1.5rem; padding-top: 65px;}
+.recruit .rec01 li p{color: #fff; font-size: 1.1rem; margin: 10px 10px; text-align: center;}
+
+/* 텍스트 */
+.recruit .rec02{margin-bottom: 50px;}
+.recruit .rec02 li{overflow: hidden; margin: 0 4% 30px; border-bottom: 1px solid #ccc;}
+.recruit .rec02 p{float: left; width: 10%; font-size: 2rem; color: #0c4da2; margin-right: 4%;}
+.recruit .rec02 dl{text-align: justify; line-height: 1.5em;}
+.recruit .rec02 dt{float: left; width: 30%; font-weight: 700; font-size: 1.2rem; margin-bottom: 20px;}
+.recruit .rec02 dd{float: right; width: 48%; font-size: 1.1rem; margin-bottom: 20px;}

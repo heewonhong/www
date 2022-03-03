@@ -1,0 +1,20 @@
+/* 나눔경영소개 */
+.share{font-family: 'Noto Sans KR', sans-serif;}
+.share h2{font-weight: 700; font-size: 2rem; text-align: center; margin: 40px 0 30px;}
+.share .txt{font-size: 1.2rem; text-align: center; margin-bottom: 50px; line-height: 1.6em;}
+.share .txt span{color: #0c4da2; font-weight: 700; text-align: center;}
+.share ul{margin-bottom: 70px;}
+.share li{width: 100%; height: 380px; background: url(../images/backx2.png)center no-repeat; background-size: cover;}
+.share h3{font-size: 1.7rem; font-weight: 700; padding-top: 40px; text-align: center; margin-bottom: 10px; color: #fff;}
+.share li p{text-align: justify; font-size: 1.2rem; line-height: 1.6em; color: #fff; background: rgba(0,0,0,.4); padding: 15px; border-radius: 10px; margin: 20px 4%; vertical-align: bottom;}
+
+/* 대표사업 */
+.group{font-family: 'Noto Sans KR', sans-serif;}
+.group h3{text-align: center; font-size: 1.7rem; font-weight: 700; margin-bottom: 30px;}
+.group ul{margin-bottom: 50px;}
+.group li{overflow: hidden; margin: 0 4%; position: relative; padding-bottom: 20px;}
+.group span{font-weight: 700; font-size: 1.3rem;}
+.group a{display: block; width: 50%; float: right; margin-top: 20px;}
+.group span::before{content: ''; width: 50px; height: 50px; position: absolute; top: 135px; right: 90px; z-index: -10; background: rgba(24,107,178,.5); border-radius: 50%;}
+.group img{width: 125px; height: 125px; border-radius: 50%; float: right; vertical-align: middle;}
+.group p{width: 50%; float: left; margin-top: 20px; text-align: justify;}

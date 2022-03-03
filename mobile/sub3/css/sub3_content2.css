@@ -1,0 +1,8 @@
+.welfare{font-family: 'Noto Sans KR', sans-serif;}
+.welfare h2{font-weight: 700; font-size: 2rem; text-align: center; margin: 40px 0 30px;}
+.welfare > p{font-size: 1.2rem; text-align: center; margin-bottom: 50px; line-height: 1.6em;}
+.welfare p span{color: #0c4da2; font-weight: 700; text-align: center;}
+.welfare li{margin: 0 4% 50px 4%;}
+.welfare img{width: 70px; height: 70px; position: relative; top: 0; left: 50%; margin-left: -45px; padding: 10px; border: 1px solid #186bb2; border-radius: 50%;}
+.welfare ul li span{color: #186bb2; display: block; text-align: center; font-size: 1.4rem; margin: 15px 0 10px; font-weight: 700;}
+.welfare ul li p{text-align: justify; font-size: 1.2rem; line-height: 1.6em;}

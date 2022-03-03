@@ -1,0 +1,385 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>삼성중공업</title>
+    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./common/css/common.css">
+    <link rel="stylesheet" href="./maincss/main.css">
+    
+    <script src="./common/js/prefixfree.min.js"></script>
+    <script src="./mainjs/mainpopup.js"></script>
+</head>
+<body>
+
+    <? include "./common/main_header.html" ?>
+    
+    <!-- 비주얼영역 -->
+    <div class="visual">
+        <div class="gallery">
+            <ul>
+                <li class="link1"><a href="#"><img src="./images/visual01.jpg" alt='비주얼이미지' ><span>조선해양산업의 미래<p>삼성중공업</p></span></a></li>
+                <li class="link2"><a href="#"><img src="./images/visual02.jpg" alt='비주얼이미지' ><span>조선해양산업의 미래<p>삼성중공업</p></span></a></li>
+                <li class="link3"><a href="#"><img src="./images/visual03.jpg" alt='비주얼이미지' ><span>조선해양산업의 미래<p>삼성중공업</p></span></a></li>
+                <li class="link4"><a href="#"><img src="./images/visual04.jpg" alt='비주얼이미지' ><span>조선해양산업의 미래<p>삼성중공업</p></span></a></li>
+            </ul>
+        </div>
+    
+        <div class="dock">
+            <span class="mbutton  btn1" ></span>
+            <span class="mbutton  btn2" ></span>
+            <span class="mbutton  btn3" ></span>
+            <span class="mbutton  btn4" ></span>
+            <span class="ps" ></span>
+        </div>
+        <span class="btn btnLeft"><i class="fas fa-chevron-left"></i></span>
+        <span class="btn btnRight"><i class="fas fa-chevron-right"></i></span>
+
+    </div>
+
+    <!-- 본문콘텐츠영역 -->
+    <article id="content">
+        <h2 class="hidden">본문콘텐츠영역</h2>
+
+        <!-- 지속가능경영 -->
+        <div id="management">
+        <h3>지속가능경영</h3>
+        <p>삼성중공업은 환경과 사회적 책임을 준수합니다.</p>
+            <ul>
+                <li>
+                    <a href="./sub4/sub4_1.html">
+                        <h4>안전경영</h4>
+                        <div class="image"></div>
+                        <span>모든 작업공정에서 안전을 <br>최우선 가치로 설정하고 있습니다.</span>
+                    </a>
+                </li>
+        
+                <li>
+                    <a href="./sub4/sub4_2.html">
+                        <h4>준법경영</h4>
+                        <div class="image"></div>
+                        <span>지속성장 발전하기 위하여<br>제반 법규를 준수하는 준법경영을<br>강화해 나가고 있습니다.</span>
+                    </a>
+                </li>
+        
+                <li>
+                    <a href="./sub4/sub4_3.html">
+                        <h4>윤리경영</h4>
+                        <div class="image"></div>
+                        <span>공정하고 투명한 <br>기업경영으로 세계 초일류 <br>기업을 실현합니다.</span>
+                    </a>
+                </li>
+        
+                <li>
+                    <a href="./sub4/sub4_4.html">
+                        <h4>나눔경영</h4>
+                        <div class="image"></div>
+                        <span>다양한 봉사활동을 통해 <br>이웃과 희망을 나누고<br>사랑을 실천합니다.</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 사업분야 -->
+        <section class="best_product">
+            <div class="best_product_inner ani">
+                <h3>사업분야</h3>
+                <p>세계 최고의 기술력을 바탕으로한<br><span>고기술 · 고부가가치 선박건조 세계 1위</span></p>
+                <div class="w-gallery">
+                <div id="responsiveGallery-container" class="responsiveGallery-container">
+                    <a class="responsiveGallery-btn responsiveGallery-btn_prev" href="javascript:void(0);"></a> 
+                    <a class="responsiveGallery-btn responsiveGallery-btn_next" href="javascript:void(0);"></a>
+
+                    <ul class="responsiveGallery-wrapper">
+                        <li class="responsiveGallery-item"> 
+                            <a href="./sub2/sub2_1.html" class="responsivGallery-link">
+                                <img src="./images/business01.jpg" height="320" width="320" alt="LNG선이미지" class="responsivGallery-pic">
+                                <div class="w-responsivGallery-info">
+                                    <dl>
+                                        <dt class="responsivGallery-name">LNG선</dt>
+                                        <dd class="responsivGallery-position">친환경 고효율 엔진으로<br>LNG선 시장선도</dd>
+                                    </dl>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="responsiveGallery-item"> 
+                            <a href="./sub2/sub2_1.html" class="responsivGallery-link">
+                                <img src="./images/business02.jpg"  height="320" width="320" alt="유조선이미지" class="responsivGallery-pic">
+                                <div class="w-responsivGallery-info">
+                                    <dl>
+                                        <dt class="responsivGallery-name">유조선</dt>
+                                        <dd class="responsivGallery-position">친환경 기술을 자랑하는<br>원유운반선</dd>
+                                    </dl>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="responsiveGallery-item"> 
+                            <a href="./sub2/sub2_2.html" class="responsivGallery-link">
+                                <img src="./images/business03.jpg" height="320" width="320" alt="드릴십이미지" class="responsivGallery-pic">
+                                <div class="w-responsivGallery-info">
+                                    <dl>
+                                        <dt class="responsivGallery-name">드릴십</dt>
+                                        <dd class="responsivGallery-position">드릴십 세계 시장점유율 1위</dd>
+                                    </dl>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="responsiveGallery-item"> 
+                            <a href="./sub2/sub2_1.html" class="responsivGallery-link">
+                                <img src="./images/business04.jpg" height="320" width="320" alt="부유식재기화설비이미지" class="responsivGallery-pic">
+                                <div class="w-responsivGallery-info">
+                                    <dl>
+                                        <dt class="responsivGallery-name">부유식 재기화설비</dt>
+                                        <dd class="responsivGallery-position">재기화설비 강자로 부상</dd>
+                                    </dl>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="responsiveGallery-item"> 
+                            <a href="./sub2/sub2_1.html" class="responsivGallery-link">
+                                <img src="./images/business05.jpg" height="320" width="320" alt="컨테이너선이미지" class="responsivGallery-pic">
+                                <div class="w-responsivGallery-info">
+                                    <dl>
+                                        <dt class="responsivGallery-name">컨테이너선</dt>
+                                        <dd class="responsivGallery-position">컨테이너선 대형화 주도</dd>
+                                    </dl>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="responsiveGallery-item"> 
+                            <a href="./sub2/sub2_1.html" class="responsivGallery-link">
+                                <img src="./images/business06.jpg" height="320" width="320" alt="초대형에탄운반선이미지" class="responsivGallery-pic">
+                                <div class="w-responsivGallery-info">
+                                    <dl>
+                                        <dt class="responsivGallery-name">초대형 에탄운반선</dt>
+                                        <dd class="responsivGallery-position">세계 최초 초대형 에탄운반선으로 신시장 개척</dd>
+                                    </dl>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="responsiveGallery-item"> 
+                            <a href="./sub2/sub2_1.html" class="responsivGallery-link">
+                                <img src="./images/business07.jpg" height="320" width="320" alt="쇄빙유조선이미지" class="responsivGallery-pic">
+                                <div class="w-responsivGallery-info">
+                                    <dl>
+                                        <dt class="responsivGallery-name">쇄빙유조선</dt>
+                                        <dd class="responsivGallery-position">극지 원유 운송의 새 지평,<br>양방향 쇄빙유조선</dd>
+                                    </dl>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="responsiveGallery-item"> 
+                            <a href="./sub2/sub2_1.html" class="responsivGallery-link">
+                                <img src="./images/business08.jpg" height="320" width="320" alt="여객선이미지" class="responsivGallery-pic">
+                                <div class="w-responsivGallery-info">
+                                    <dl>
+                                        <dt class="responsivGallery-name">여객선</dt>
+                                        <dd class="responsivGallery-position">유럽형 대형 여객선의<br>지속적인 개발</dd>
+                                    </dl>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="responsiveGallery-item"> 
+                            <a href="./sub2/sub2_2.html" class="responsivGallery-link">
+                                <img src="./images/business09.jpg" height="320" width="320" alt="FLNG이미지" class="responsivGallery-pic">
+                                <div class="w-responsivGallery-info">
+                                    <dl>
+                                        <dt class="responsivGallery-name">FLNG</dt>
+                                        <dd class="responsivGallery-position">FLNG로 해양플랜트<br>설비시장 선점</dd>
+                                    </dl>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="responsiveGallery-item"> 
+                            <a href="./sub2/sub2_2.html" class="responsivGallery-link">
+                                <img src="./images/business10.jpg" height="320" width="320" alt="FPSO이미지" class="responsivGallery-pic">
+                                <div class="w-responsivGallery-info">
+                                    <dl>
+                                        <dt class="responsivGallery-name">FPSO</dt>
+                                        <dd class="responsivGallery-position">세계 최다 FPSO 건조실적</dd>
+                                    </dl>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="responsiveGallery-item"> 
+                            <a href="./sub2/sub2_2.html" class="responsivGallery-link">
+                                <img src="./images/business11.jpg" height="320" width="320" alt="부유식해양구조물이미지" class="responsivGallery-pic">
+                                <div class="w-responsivGallery-info">
+                                    <dl>
+                                        <dt class="responsivGallery-name">부유식 해양구조물</dt>
+                                        <dd class="responsivGallery-position">고부가가치의 해양구조물<br>생산으로 기술력 축적</dd>
+                                    </dl>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="responsiveGallery-item"> 
+                            <a href="./sub2/sub2_2.html" class="responsivGallery-link">
+                                <img src="./images/business12.jpg" height="320" width="320" alt="풍력발전기설치선이미지" class="responsivGallery-pic">
+                                <div class="w-responsivGallery-info">
+                                    <dl>
+                                        <dt class="responsivGallery-name">풍력발전기 설치선</dt>
+                                        <dd class="responsivGallery-position">세계 최대 풍력설치선 건조</dd>
+                                    </dl>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div> 
+                </div>
+            </div>
+        </section>
+
+        <!-- 커뮤니티영역 -->
+        <div class="community">
+            <h3 class="hidden">커뮤니티</h3>
+
+            <!-- 나눔실천뉴스 -->
+            <div class="service">
+                <h4 class="text_ani1">나눔실천뉴스</h4>
+                <ul>
+                    <li>
+                        <a href="./concert/list.php">
+                            <img src="./images/news01.jpg" alt="나눔실천뉴스이미지">
+                            <p>나눔실천뉴스를 통해 만나는<br>삼성중공업의 다양한 이야기</p>
+                        </a>
+                    </li>
+                </ul>
+               <a class="more" href="./concert/list.php">자세히보기 〉</a>
+            </div>
+         
+            <!-- 뉴스 -->
+            <? include "./lib/func.php"; ?>
+            <div class="news">
+                <h4 class="text_ani2">뉴스</h4>
+                <? latest_article("greet", 4, 30); ?>
+                <a class="more" href="./greet/list.php">자세히보기 〉</a>
+            </div>
+        </div>
+
+        <!-- 인재채용 -->
+        <div class="recruit">
+           <div>
+                <h3>인재채용</h3>
+                <p>열정과 도전정신을 지닌 인재를 찾습니다.</p>
+           </div>
+            <ul>
+                <li>
+                    <a href="./sub5/sub5_1.html">
+                        <div class="image"><img src="./images/recruit01.png" alt="인재채용 이미지"></div>
+                        <dl>
+                            <dt>인재상</dt>
+                            <dd>
+                                삼성이 지향하는 인재는 <br> 열린마음, 열린머리, 열린행동을 지닌 <br> 열린사람입니다.
+                            </dd>
+                        </dl>
+                        <i class="fas fa-arrow-alt-circle-right"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="./sub5/sub5_2.html">
+                        <div class="image"><img src="./images/recruit02.png" alt="복리후생 이미지"></div>
+                        <dl>
+                            <dt>복리후생</dt>
+                            <dd>
+                                삼성인이 보다 질높은 삶을 <br>추구할 수 있도록 노력하고 있습니다.
+                            </dd>
+                        </dl>
+                        <i class="fas fa-arrow-alt-circle-right"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="./download/list.php">
+                        <div class="image"><img src="./images/recruit03.png" alt="채용공고 이미지"></div>
+                        <dl>
+                            <dt>채용공고</dt>
+                            <dd>
+                                삼성중공업은 여러분을 기다립니다. <br>더 많은 채용공고를 확인해보세요.
+                            </dd>
+                        </dl>
+                        <i class="fas fa-arrow-alt-circle-right"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 투자정보 -->
+        <div class="investment">
+            <h3>투자정보</h3>
+                <p class="inp">삼성중공업은 주주의 권리를 보장하고, 투명한 경영을 실현합니다.</p>
+            <ul>
+                <li>
+                    <a href="./sub3/sub3_1.html">
+                        <dl>
+                            <dt>재무정보</dt>
+                            <dd>삼성중공업의 주요 재무현황을 확인하실 수 있습니다.</dd>
+                        </dl>
+                        <span>― more</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./sub3/sub3_2.html">
+                        <dl>
+                            <dt>지배구조</dt>
+                            <dd>신뢰를 바탕으로 한 정도경영을 실천하겠습니다.</dd>
+                        </dl>
+                        <span>― more</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </article> 
+
+    <? include "./common/main_footer.html" ?>
+
+
+    <script src="./mainjs/move.js"></script>
+    <script src="./mainjs/scroll.js"></script>
+
+     <!-- responsiveGallery 플러그인 -->
+    <script src="./mainjs/jquery.responsiveGallery.js"></script>
+    <script src="./mainjs/modernizr.custom.js"></script>
+    <script>
+        $(function () {  //호출코드
+              $('.responsiveGallery-wrapper').responsiveGallery({
+                  animatDuration: 400, 
+                  $btn_prev: $('.responsiveGallery-btn_prev'),
+                  $btn_next: $('.responsiveGallery-btn_next')
+              });
+          });
+  </script>
+
+    <!-- <div class="text">0</div> -->
+   
+
+    <!-- 공지사항 팝업 -->
+    <div id="showimage" style="z-index:99;position:absolute;width:322px;left:80px;top:170px;">
+        <script>
+          function closeWin(){
+             var chk = document.getElementById('Notice')
+             if ( chk.checked ) {
+                   setCookie( "Notice", "done" , 1); //1이란 숫자는 1일간 안보임을 뜻합니다. 날짜는 자신에 맞게 수정하세요
+              }
+          }
+         if ( getCookie( "Notice" ) == "done" ) {
+             hidebox();
+         }
+       </script>
+          <div>
+                <img src="popup/pop.png" alt="본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다. 홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다." />
+          </div>
+           <div style="font-size:12px;text-align:center;color:#fff;">
+             <input type="checkbox" name="Notice" id="Notice" value="" title="오늘은 이창을 열지 않음 선택상자"><label for="Notice">오늘은 이창을 열지 않음.</label>
+           <a href="#"  onclick="closeWin();hidebox();return false;" style="color:#fff"> [close] </a>
+        </div>
+      </div>
+    
+</body>
+</html>

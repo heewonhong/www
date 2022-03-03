@@ -1,0 +1,33 @@
+/* 타이틀 */
+#content .title_area{position: relative; font-family: 'Noto Sans KR', sans-serif; margin-bottom: 120px;}
+
+/* 이미지내용 */
+#content .content_area{width: 1200px; margin: 0 auto; font-family: 'Noto Sans KR', sans-serif;}
+#content .content_area .open li .tit{font-weight:700; color: #333; padding: 0 169px 355px 0; font-size: 36px; float: left; opacity: 0; transition: all 2s;}
+#content .content_area .open ul{margin-bottom: 250px; position: relative; float: left;}
+#content .content_area .open li:nth-of-type(2n){float: right;}
+#content .content_area .open li:nth-of-type(2n+1){float: left;}
+#content .content_area .open li:nth-child(4){margin-top: 420px;}
+#content .content_area .open li:nth-child(4)::before{content: ''; background: #f5f5f5; width: 2000px; height: 700px; position: absolute; top: 852px; left: 50%; margin-left: -1000px; display: block; z-index: -1;}
+#content .content_area .open a{display: block;}
+#content .content_area .open img{margin-bottom: 30px;}
+#content .content_area .open span{ font-weight:700; font-size: 32px; line-height: 44px; letter-spacing: -.4px; }
+#content .content_area .open p{font-size: 20px; margin-top: 10px; color:#666;}
+
+/* 글내용 */
+#content .content_area .txt{font-family: 'Noto Sans KR', sans-serif; clear: both; position: relative; top:200px; opacity: 0; transition: all .7s ease-out;}
+#content .content_area .txt ul{position: relative;}
+#content .content_area .txt li{overflow: hidden; margin-bottom: 130px;}
+#content .content_area .txt li:nth-child(1)::before{content: ''; display: block; position: absolute; top: 200px; left: 0; width: 100%; height: 1px; background: #ddd;}
+#content .content_area .txt li:nth-child(2)::before{content: ''; display: block; position: absolute; bottom: 180px; left: 0; width: 100%; height: 1px; background: #ddd;}
+#content .content_area .txt p{font-size: 50px; font-weight: 700; float: left; margin-right: 60px; color: #186bb2;}
+#content .content_area .txt dt{font-size: 28px; font-weight: 700; width: 480px; text-align: justify; float: left; margin-right: 50px;}
+#content .content_area .txt dd{font-size: 18px; text-align: justify; float: left; width: 550px; letter-spacing: .4px; line-height: 1.5em;}
+
+/* scroll animation 최종값(목적지) */
+#content .open li .tit.boxMove{opacity: 1;}
+#content .txt.boxMove2{top: 0; opacity: 1;}
+
+
+/* 스크롤좌표
+.text{position: fixed; right:0; top: 0; font-size: 50px; z-index: 100}  */

@@ -1,0 +1,22 @@
+/* font-family: 'Noto Sans KR', sans-serif; font-weight:700;
+
+/* 타이틀 */
+#content .title_area{position: relative;}
+#content .content_area li{float: left; padding: 80px 0;}
+
+/* 조선사업 */
+#content .content_area ul{font-family: 'Noto Sans KR', sans-serif;}
+#content .content_area li{position: relative;}
+#content .content_area li p{font-size: 55px; font-weight: 700; color: #cfcfcf; font-family: 'Roboto', sans-serif;  text-align: justify;}
+#content .content_area .gray{float: left; margin-bottom: 20px;}
+#content .content_area .gray::before{content: ''; width: 2000px; height: 560px; background: #f5f5f5; position: absolute; top:0; left: 50%; margin-left: -1000px; z-index: -10; }
+#content .content_area img{border-radius: 30px; margin-left: 20px;}
+#content .content_area li img:hover{box-shadow: 2px 2px 3px 2px rgb(0 0 0 / 20%); transition: all .2s;}
+#content .content_area dl{width: 530px; float: right; margin-left: 50px; padding: 20px 0; text-align: justify;}
+#content .content_area dt{font-size: 28px; font-weight: 700;  margin-bottom: 30px;}
+#content .content_area dd{font-size: 16px; color: #666; line-height: 1.75em;}
+#content .content_area .point{font-size: 20px; margin-top: 20px; color: #555;}
+#content .content_area li:nth-of-type(2n) img{float: right; margin-right: 20px;}
+#content .content_area li:nth-of-type(2n) dl{float: left;  margin-left: 30px; padding: 40px 0 60px 0;}
+#content .content_area li:nth-of-type(2n) p{position: absolute; bottom: 60px; left: 30px;}
+#content .content_area li:nth-of-type(2n+1) p{position:relative; left: 56%; bottom: 70px;}

@@ -1,0 +1,95 @@
+<기업형>
+
+?
+
+-고정형 pc전용 웹사이트
+
+?
+
+-디자인 시안!!!!
+
+- main_1-홍길동.psd
+
+- width(너비) => 1200px 
+
+- 배경 => #fff
+
+- 폰트 
+
+-제목/네비게이션 => 대표글꼴 (한글/영문) ttf 파일
+
+-네비게이션(나눔고딕-bold) 5~6개
+
+- 22px/24px(권장)/26px
+
+- bold
+
+- color => #333
+
+-제목
+
+- <h3> => 40px~50px(권장)~60px
+
+- bold
+
+- color => #333
+
+-내용글 
+
+-글꼴=> "돋움"
+
+-color => #333 / #666 / #999
+
+-글자크기 => 14px~16(권장~기본폰트)~18px
+
+-푸터영역
+
+- 14px (기본폰트크기 -2px)
+
+-------------------------------------------------
+
+<디자인 참고 사이트>
+
+?
+
+-무료이미지 다운사이트
+
+-https://www.pinterest.co.kr/
+
+-https://pixabay.com
+
+-https://unsplash.com
+
+-https://picjumbo.com
+
+?
+
+-무료 아이콘/픽토그램
+
+-https://www.flaticon.com/ (와따~~~) -로그인
+
+-https://www.iconfinder.com/
+
+-https://iconarchive.com/
+
+-https://findicons.com/
+
+
+
+
+
+
+
+
+
+
+------------
+전체너비 -> 1200px
+
+비주얼영역 이미지 => 2000px * 300px~350px
+
+타이틀 -> 50px~60px
+
+sub1_1.psd
+
+본문 텍스트 크기 =>  16px~20px

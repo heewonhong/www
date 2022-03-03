@@ -1,0 +1,193 @@
+@keyframes ani {
+    from {}
+    to {transform: scale(1.5);}
+}
+@keyframes text{
+    from{transform:translateY(50px); opacity: 0;}
+    to{transform:translateY(0); opacity: 1;}
+}
+
+/* 비주얼 영역 */
+.visual{width: 2000px; height: 1000px;  position: relative; top: 0; left: 50%; margin-left: -1000px; overflow: hidden; background: #2e2e2e;}
+
+.gallery{position:relative;left:0; top:0; overflow:hidden; width:2000px; height:1000px;}
+.gallery li{display:none; position: relative;}
+.gallery img{animation: ani 30s linear infinite;}
+.gallery li span{position: absolute; right: 330px; top: 300px; font-size: 40px; color: #fff; font-family: 'Noto Sans KR', sans-serif; animation: text 1s ease-out forwards;}
+.gallery span{right: 400px; top: 280px; text-align: center;}
+.gallery span p{color: #0c4da2; font-size: 50px; font-weight: 700;}
+.gallery .link2 span{left: -640px; top: 700px; animation: text 1s ease-out forwards;}
+
+.dock{width:330px; position:absolute; left:50%; bottom:130px;}
+.dock .mbutton{ margin-right:15px; cursor:pointer; display:block; float:left; width:10px; height:10px; background: #fff; border-radius:5px; transition: all .5s}
+.dock .ps{ margin-right:15px; margin-top: -5px; cursor:pointer; display:block; float:left; width:25px;  height:25px; background: url("http://heewon98.cafe24.com/maincss/../images/pause.png")}
+
+.visual .btn{display: block; width: 200px; height: 500px; color: #f2f2f2; position: absolute; top:50%; cursor:pointer; }
+.visual .btnLeft{left:50%; margin-left: -800px;}
+.visual .btnRight{left:50%; margin-left: 800px;}  
+.visual i{font-size: 50px;}
+
+
+/* 지속가능경영 */
+#content{width: 1200px; margin: 0 auto; font-family: 'Noto Sans KR', sans-serif;}
+#content #management{position: relative; top:300px; opacity: 0; transition: all .7s ease-out;}
+#content #management h3{font-weight:700; font-size: 50px; text-align: center; letter-spacing: .9px; margin-top: 150px;}
+#content #management p{margin: 15px 0 50px; font-size: 18px; color: #999; text-align: center;}
+#content #management ul{text-align:center; height: 500px; margin-bottom: 130px; }
+#content #management li{display:inline-block; width:274px; height: 450px; margin:15px 0 15px 30px; vertical-align:top; transition:all .3s}
+#content #management li:first-child{margin-left:0;}
+#content #management li a{display: block; position:relative; width:100%; height: 100%; box-shadow:2px 2px 3px 2px rgba(0,0,0,.2); border-radius: 20px; box-sizing:border-box; padding: 35px 15px 0; transition:all .3s; overflow:hidden;}
+#content #management li a::after{content:''; display:block; position:absolute; left:50%; top:50%; transform:translate(-50%, -50%);  width: 60px; height: 60px; border-radius:500px; border:2px solid #186bb2; background:url(../images/manage_more.png) 50% 50% no-repeat; z-index:10; opacity:0;}
+#content #management li .image{position:absolute; left:50%; top:50%; transform:translate(-50%, -60%); width:220px; height: 230px; border-radius:500px; background:url(../images/manage1.jpg) 50% 50% no-repeat; margin:0 auto; transition:all .3s;}
+#content #management li .image::after{content:''; position:absolute; left:0; top:0; width: 100%; height: 100%; background:rgba(255,255,255,0.5); z-index: 3; opacity:0; transition:all .3s;}
+#content #management li:nth-child(1) .image{background-image:url(../images/manage1.jpg);}
+#content #management li:nth-child(2) .image{background-image:url(../images/manage2.jpg);}
+#content #management li:nth-child(3) .image{background-image:url(../images/manage3.jpg);}
+#content #management li:nth-child(4) .image{background-image:url(../images/manage4.jpg);}
+#content #management li h4{ font-weight:700; font-size: 22px; color: #186bb2; text-align: center;}
+#content #management li span{display:block; color:#666; margin-top: 280px;} 
+#content #management li:hover a::after{opacity:1;}
+#content #management li:hover{height:480px; margin-top:0; margin-bottom:0;}
+#content #management li:hover .image{width:480px; height:480px; transform:translate(-50%, -50%); border-radius:0; z-index: 2;}
+#content #management li:hover .image::after{opacity:1;}
+
+/* 사업분야 */
+.best_product{margin: 0 auto; background: #f9f9f9; position: relative; left: 50%; width: 2000px; margin-left: -1000px; height: 900px; font-family: 'Noto Sans KR', sans-serif;}
+.best_product a{text-decoration: none;}
+.best_product .best_product_inner{width: 1200px; margin: 0 auto;}
+.best_product .ani{position: relative; left:500px; opacity: 0; transition: all .6s ease-out;}
+.best_product h3 {font-weight:700; font-size: 50px; text-align: center; padding-top: 50px; letter-spacing: .9px;}
+.best_product p{font-size: 24px; text-align: right; margin: 40px 0 60px; line-height: 1.8em;}
+.best_product span{font-weight:700; font-size: 26px; color: #0c4da2; text-align: right; margin-bottom: 80px;}
+.best_product li {float: left; margin: 0 30px 0 0}
+.best_product dl {text-align: center;}
+.best_product dt {margin-bottom: 5px; font-size: 20px; font-weight: 700; transition: all .3s ease-out;}
+.best_product a:hover dt {color: #0c4da2;}
+.best_product dd {color: #777; font-size: 16px;}
+.best_product .left {position: absolute; top: 300px; left: 30px; color: #999; font-size: 30px;}
+.best_product .right {position: absolute; top: 300px; right: 30px; color: #999; font-size: 30px;}
+
+/* 커뮤니티 */
+.community{width: 1200px; position: relative; font-family: 'Noto Sans KR', sans-serif; display: block; margin-bottom: 130px; overflow: hidden; margin-top: 130px;}
+
+/* 나눔실천뉴스 */
+.community .service{float: left; position: relative; margin-left: 50px;}
+.community .service .text_ani1{position: relative; top:150px; opacity: 0; transition: all .8s ease-out;}
+.community .service h4{font-weight: 700; font-size: 40px; letter-spacing: 0.02em; line-height: 2.625rem;  margin-bottom: 30px;}
+.community .service ul{overflow: hidden; box-shadow:5px 5px 20px 2px rgb(0 0 0 / 20%);}
+.community .service li{float: left; position: relative;}
+.community .service li a{display: block;}
+.community .service li img{width: 100%; transform: scale(1); transition: all .5s;}
+.community .service li:hover img{transform:scale(1.1); }
+.community .service p{position: absolute; left:0; top: 240px; width: 485px; background: rgba(0,0,0,.5); color: #fff; text-align: center; padding: 20px 0}
+.community .service .more{display: block; font-size: 16px; color: #666; margin-bottom: 33px; transition: all .2s ease-in-out; position: absolute; top: 0px; right: 0px;}
+.community .service a:hover{color:#0c4da2} 
+
+/* 뉴스 */
+.news{float: right; position: relative;  overflow: hidden; margin-right: 50px;}
+.news .text_ani2{position: relative; top:150px; opacity: 0; transition: all .8s ease-out;} 
+.news h4{font-weight: 700; font-size: 40px; letter-spacing: 0.02em; line-height: 2.625rem; margin-bottom: 30px;}
+.news ul{overflow: hidden;}
+.news li{width: 485px; border-top: 1px solid #666; padding: 16px; color: #455066;}
+.news li:last-child{border-bottom: 1px solid #666;}
+.news li:hover{font-weight: 700; transition: all .2s ease-in-out;}
+.news li p{font-size: 16px; color: #333; text-align: justify; margin-top: 20px; line-height: .3em; }
+.news li span{font-family: 'Roboto', sans-serif; font-size: 16px; color: #666; position: relative; bottom: 15px; left: 410px; text-align: right; } 
+.news a{display: block;}
+.news .more{display: block; font-size: 16px; color: #666; margin-bottom: 33px; position: absolute; top: 0px; right: 0px;}
+.news .more:hover{color:#0c4da2}
+
+/* 인재채용 */
+.recruit {width: 1200px; height: 750px; overflow: hidden; font-family: 'Noto Sans KR', sans-serif; background:url(../images/recruit_back.jpg) no-repeat; position: relative; left:500px; opacity: 0; transition: all .7s ease-out;}
+.recruit h3{font-weight:700; font-size: 50px; color: #fff; text-align: center; margin: 90px 0 15px 0; letter-spacing: .9px;}
+.recruit p{font-size: 18px; color: #fff; text-align: center; margin-bottom: 25px;}
+.recruit ul{padding:0 30px; overflow:hidden;}
+.recruit ul li{float:left; width:360px; text-align:center; margin-left:30px; position: relative;}
+.recruit ul li:first-child{margin-left:0;}
+.recruit ul li:hover{background: #fff; box-shadow:2px 2px 3px 2px rgba(0,0,0,.2);}
+.recruit ul li:hover img{background: #186bb2;}
+.recruit ul li a{display: block; position: relative; height: 450px; padding: 75px 0 0; box-sizing: border-box;}
+.recruit ul li:hover a{padding: 35px 0 0; transition: all 1s;}
+.recruit ul li .image{background: rgba(0,0,0,.4); width: 225px; height: 225px; border-radius: 112.5px; overflow: hidden; text-align: center; margin: 0 auto; transition: all 1s;}
+.recruit ul dl{color:#fff; margin: 40px; transition: all 2s;}
+.recruit ul dl dt{font-size: 20px; text-align: center; margin-bottom: 10px;}
+.recruit ul li:hover dt{color: #186bb2; font-size: 24px;}
+.recruit ul dl dd{opacity:0;}
+.recruit ul li:hover dd{opacity:1; font-weight:400; font-size: 16px; color: #666;}
+.recruit ul li i{color: #186bb2; position: absolute; bottom: 20px; right: 30px; font-size: 28px; opacity: 0;}
+.recruit ul li:hover i{opacity: 1;}
+
+/* 투자정보 */
+.investment{font-family: 'Noto Sans KR', sans-serif; position: relative; top:200px; opacity: 0; transition: all .7s ease-out;}
+.investment h3{font-size: 50px; font-weight: 700; text-align: center; margin: 130px 0 15px 0; letter-spacing: .9px;}
+.investment .inp{margin-bottom:50px; font-size: 18px; font-weight: 400; color: #999; text-align: center;}
+.investment ul{overflow:hidden;}
+.investment ul li{float:left; width: 50%; transition:all 1s}
+.investment ul li a{display:block; position:relative; height: 500px; box-sizing:border-box; background:url(../images/invest01.jpg) 50% 50% no-repeat;}
+.investment ul li a::before{content:''; display:block; position:absolute; left:0; top:0; width: 100%; height: 100%; background:rgba(0,0,0,0.5); opacity:0;}
+.investment ul li:nth-child(2) a{background:url(../images/invest02.jpg) 50% 50% no-repeat;}
+.investment ul dl{position:absolute; left:0; top:0; color:#fff; padding:20px; z-index:2;}
+.investment ul dl dt{font-weight:800; font-size:24px;}
+.investment ul dl dd{margin:10px 0 0;}
+.investment ul li span{position:absolute; right: 25px; bottom:25px; display:inline-block; height: 35px;  line-height: 35px; color:#fff; padding:0 20px; border:2px solid #186bb2; border-radius:500px; opacity:0; transition:all .3s;}
+.investment ul li span::before{content:''; color:#fff; letter-spacing:-2px; margin-right:5px;}
+.investment ul li span:hover{background: #fff; color: #0c4da2;}
+.investment ul:hover li{width:35%;}
+.investment ul:hover li:hover{width:65%;}
+.investment ul li:hover a::before{opacity:1;}
+.investment ul li:hover dl{text-align:center; width: 100%; padding:200px 0 0;}
+.investment ul li:hover dl dt{font-size:30px;}
+.investment ul li:hover dl dd{font-size:18px; margin:20px 0 0;}
+.investment ul li:hover span{opacity:1;}
+
+/* 스크롤좌표
+.text{position: fixed; right:0; top: 0; font-size: 50px; z-index: 100} */
+
+/* scroll animation 최종값(목적지) */
+#content #management.boxMove,
+#content .community .service .text_ani1.boxMove,
+#content .community .news .text_ani2.boxMove, 
+#content .investment.boxMove{top:0; opacity: 1;}
+#content .best_product .ani.boxMove2, 
+#content .recruit.boxMove2{left:0; opacity: 1;}
+
+/*사업분야 - responsiv 3D gallery*/
+.responsiveGallery-container {width: 100%; position: relative;}
+.responsiveGallery-btn {position: absolute; top: 0; z-index: 3; display: block; width: 5%; height: 100%;}
+.responsiveGallery-btn_prev {background: url(../images/arrow-left.png) center center no-repeat; left: 1%;}
+.responsiveGallery-btn_next {background: url(../images/arrow-right.png) center center no-repeat; right: -5%;}
+.responsiveGallery-wrapper {position: relative; width: 100%; margin: 0 auto; padding-top: 25%; transform-style: preserve-3d; perspective: 1000px;}
+.responsiveGallery-item {position: absolute; left: 0; top: 0; z-index: 0; display: block; width: 20%; opacity: 0; visibility: hidden;}
+
+@media (max-width: 1000px) {
+  .responsiveGallery-item {
+      width: 33.33%;
+  }
+
+  .responsiveGallery-wrapper {
+      padding-top: 45%;
+  }
+
+}
+@media (max-width: 560px) {
+  .responsiveGallery-wrapper {
+      width: 60%;
+  }
+
+  .responsiveGallery-item {
+      width: 100%;
+  }
+
+  .responsiveGallery-wrapper {
+      padding-top: 80%;
+  }
+
+  .responsiveGallery-btn {
+      width: 8%;
+  }
+}
+.responsivGallery-link {display: block; width: 100%;}
+.responsivGallery-pic {height: auto; box-shadow: 0px 0px 20px rgb(0 0 0 / 20%);}
+.w-responsivGallery-info {width: 80%; margin-left: 50px; padding-top: 5%; text-align: center; color: #333;}
+.responsivGallery-name {font-size: 1.25em;}
+.responsivGallery-position {padding-top: 4%; font-size: 0.875em; line-height: 1.3;}

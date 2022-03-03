@@ -1,0 +1,40 @@
+/* 타이틀 */
+#content .title_area{position: relative; font-family: 'Noto Sans KR', sans-serif; margin-bottom: 30px;}
+#content .title_area p{font-size: 24px; text-align: center; margin: 40px 0 ; animation: text .6s ease-out forwards;}
+#content .title_area p::after{content: ''; position: absolute; top:80px; left: 50%; height: 40px; width: 5px; background: #0c4da2; animation: text .6s ease-out forwards;}
+#content .title_area span{color: #0c4da2; font-weight: 700;}
+#content .content_area{width: 1200px; margin: 200px auto;}
+
+/* 상단부분 */
+#list_search{overflow: hidden;}
+#list_search li{float: left; margin-right: 5px; position: relative; top: 0; left: 565px;}
+#list_search1 select{text-align: center; font-size: 16px; padding: 13px 0; border-color: #666; border-radius: 3px;}
+#search{width: 400px; padding: 15px 20px; border-radius: 3px; border: 1px solid #666;}
+#list_search3 input{border: 0; background: #0c4da2; color: #fff; font-size: 16px; text-align: center; padding: 13px 25px; border-radius: 5px;}
+#list_total{color: #666; font-size: 16px;}
+.slist select{position: relative; top: -35px; left: 0; text-align: center; font-size: 16px; padding: 5px 10px; border-color: #666; border-radius: 3px;}
+
+/* list top */
+#list_top_title{margin-top: 20px;}
+#list_top_title ul{overflow: hidden; border-top: 2px double #999; border-bottom: 1px solid #ccc;}
+#list_top_title li{font-weight: 600; float: left; font-size: 18px; text-align: center; background: #f2f2f2; padding: 20px 0;}
+#list_top_title li:nth-child(1){width: 130px;}
+#list_top_title li:nth-child(2){width: 600px;}
+#list_top_title li:nth-child(3){width: 185px;}
+#list_top_title li:nth-child(4){width: 185px;}
+#list_top_title li:nth-child(5){width: 100px;}
+
+/* list content */
+.list_item{overflow: hidden; border-bottom: 1px solid #ccc;}
+.list_item .list_item1{font-weight: 700; float: left; width: 130px; font-size: 16px; padding: 20px 0; text-align: center;}
+.list_item .list_item2{float: left; width: 600px; font-size: 16px; padding: 20px 0; text-align: center;}
+.list_item .list_item2 a:hover{font-weight: 700; text-decoration: underline;}
+.list_item .list_item3{float: left; width: 185px; font-size: 16px; padding: 20px 0; text-align: center;}
+.list_item .list_item4{float: left; width: 185px; font-size: 16px; padding: 20px 0; text-align: center;}
+.list_item .list_item5{float: left; width: 100px; font-size: 16px; padding: 20px 0; text-align: center;}
+
+/* 하단부분 */
+#page_num{text-align: center; margin-top: 20px;}
+#page_num a{margin-right: 10px;}
+#button{overflow: hidden;}
+#button a{width: 50px; text-align: center; float: right; background: #0c4da2; color: #fff; padding: 10px 15px; margin-left: 10px; border-radius: 5px;}

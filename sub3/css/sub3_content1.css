@@ -1,0 +1,21 @@
+/* 타이틀 */
+#content .title_area{position: relative; font-family: 'Noto Sans KR', sans-serif; margin-bottom: 50px;}
+#content .content_area li{float: left; padding: 80px 0;}
+
+/* 데이터 */
+#content .content_area .text{font-family: 'Noto Sans KR', sans-serif;}
+#content .content_area h3{font-size: 30px; }
+#content .content_area span{font-size: 18px; color: #666; float: right; margin-bottom: 10px;}
+
+/* 표 */
+#content .content_area .data table{width: 1200px; border-collapse: collapse;}
+#content .content_area .data thead{font-weight: 700; font-size: 20px; }
+#content .content_area .data thead tr{background: #0c4da2; color: #fff; border-bottom: 3px solid #fff; border-style: double; }
+#content .content_area .data thead th{padding: 10px; border: 1px solid #fff;}
+#content .content_area .data tbody{ font-size: 18px;}
+#content .content_area .data tbody .sum{background: #f5f5f5;}
+#content .content_area .data tbody th{text-align: left; font-weight: 400;}
+#content .content_area .data tbody .sum th{font-size: 20px; font-weight: 700;}
+#content .content_area .data td{text-align: right;}
+#content .content_area .data th,td{ padding: 20px;} 
+#content .content_area .data .line{border-bottom: 3px solid #ccc; border-style: double;}

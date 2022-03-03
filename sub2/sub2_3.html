@@ -1,0 +1,113 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기술/제품-기술개발</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub2common.css">
+    <link rel="stylesheet" href="./css/sub2_content3.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+
+        <!-- 비주얼영역 -->
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="비주얼이미지">
+            <h3>기술/제품</h3>
+            <p>TECHNOLOGY/PRODUCT</p>
+        </div>
+
+        <!-- 서브메뉴 -->
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub2_1.html">조선사업</a></li>
+                <li><a href="./sub2_2.html">해양사업</a></li>
+                <li class="current"><a href="./sub2_3.html">기술개발</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+            <!-- 타이틀 -->
+            <div class="title_area">
+                <div class="line_map">HOME &gt; 기술/제품 &gt; <strong>기술개발</strong></div>
+                <h2>기술개발</h2>
+                <p>“고부가가치 선박 및 <span>해양플랜트의 핵심기술</span> 확보”</p>
+            </div>
+
+            <div class="content_area">
+                <div class="int01">
+                    <h4>연구소 소개</h4>
+                    <ul>
+                        <li>
+                            <a href="#"><img src="./images/content3/center01.jpg" alt="생산기술연구센터이미지"></a>
+                            <p>생산기술연구센터</p>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/content3/center02.jpg" alt="대덕선박해양연구센터이미지"></a>
+                            <p>대덕 선박해양연구센터</p>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/content3/center03.jpg" alt="판교R&D에너지플랜트연구센터이미지"></a>
+                            <p>판교 R&D 에너지플랜트연구센터</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="int02">
+                    <h4>기술 소개</h4>
+                    <ul>
+                        <li>
+                            <dl>
+                                <dt>Battery System Test-Bed</dt>
+                                <dd><img src="./images/content3/tec01.jpg" alt="test-bed이미지"></dd>
+                                <dd class="text">친환경 선박 기술 선도를 위해 칠서에 국내 최초로 선박용 대용량 배터리시스템 TEST-BED를 구축하였습니다.<br> <span>최대 600kW/360kWh</span>로 시험 가능토록 설계되었습니다. 대용량 리튬이온 배터리와 충방전 전력설비의 안전성과 효율성을 지속적으로 개선 검증하고, 다양한 선종에서 에너지 효율을 향상시킬 수 있는 EMS(에너지관리시스템) 알고리즘 기술 개발에 매진하고 있습니다.</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>예인수조</dt>
+                                <dd><img src="./images/content3/tec02.jpg" alt="예인수조이미지"></dd>
+                                <dd class="text">대전에 위치한 세계 최대 규모 상업용 예인수조(길이 400m, 폭 14m, 깊이 7m)를 기반으로 선형·추진기의 성능 및 선박 운동·조종 안정성을 확보하고 연료 절감장치를 개발 하는 등 선박의 성능향상 및 선종 개발에 주력하고 있습니다. 예인수조는 선형유도모터 구동으로 <span>저소음·저진동이 특징인 고속선용 예인전차(최대 속도 18m/s)와 일반선용 예인전차(최대속도 5m/s), 대진폭 제어 조종시험대차와 실제 해상의 파도를 모사한 40분할 조파장치</span>를 갖추고 있습니다.</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>공동수조</dt>
+                                <dd><img src="./images/content3/tec03.jpg" alt="공동수조이미지"></dd>
+                                <dd class="text">공동수조는 <span>28m/s의 최고 유속</span>으로 고속 모형시험이 가능한 제 1시험부와 650톤의 수조수가 최고 유속 12m/s로 순환하며 최대 10미터급의 모형선을 설치할 수 있는 제 2시험부로 구성됩니다. 선체, 추진기 및 연료절감장치의 캐비테이션을 비롯한 유체역학적 성능과 수중방사소음 성능에 대한 평가 시험을 통해 프로펠러·러더의 캐비테이션 방지기술, 연료절감 장치, 고효율 저진동·저소음 추진기 개발 등을 성공적으로 수행하고 있습니다.</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>모형제작</dt>
+                                <dd><img src="./images/content3/tec04.jpg" alt="모형제작이미지"></dd>
+                                <dd class="text">모형시험으로 실제 선박성능을 정확히 추정하려면 실제 선박 및 추진기를 축소한 정밀모형이 필요합니다. 이를 위해 <span>초정밀 10축(5축 양축가동) CNC Machine와 5축 CNC Machine</span>을 이용, <span>10미터 길이 모형선과 최대 직경 0.3미터의 추진기를 정밀하고 신속하게 가공</span>합니다.</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>KOLAS 시승공인</dt>
+                                <dd><img src="./images/content3/tec05.jpg" alt="kolas시공승인이미지"></dd>
+                                <dd class="text"><span>삼성중공업 연구소는 지난 1999년부터 KOLAS로부터 역학시험과 화학시험분야의 국제공인시험기관으로 인정받고 있으며,</span> KOLAS로부터 인정받은 공인기관에서 생산한 시험결과는 어떠한 재시험 없이 국제시험기관인정협력체(ILAC, 72개국 86개 시험기관인정기구)와 아시아태평양시험기관인정협력체(APLAC, 23개국 37개 시험기관인정기구)로 부터 해당 공인성적서가 인정됨을 의미합니다.</dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+
+
+                
+            </div>
+        </article>
+        <? include "../common/sub_footer.html" ?>
+</body>
+</html>

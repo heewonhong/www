@@ -1,0 +1,41 @@
+@keyframes ani {
+    from {
+    border: 3px dashed #0c4da2;
+    transform: rotate(0);
+    }
+      
+    to {
+    border: 3px dashed #0c4da2;
+    transform: rotate(360deg);
+    }
+}
+
+/* 타이틀 */
+#content .title_area{position: relative; font-family: 'Noto Sans KR', sans-serif; margin-bottom: 100px;}
+
+/* 복리후생 사이클 */
+#content .content_area .welfare{font-family: 'Noto Sans KR', sans-serif; margin-bottom: 800px;}
+#content .content_area .welfare p{font-size: 20px; text-align: center; margin-bottom: 60px;}
+#content .content_area .welfare ul{width: 1200px; position: relative; }
+#content .content_area .welfare li{width: 200px; height: 200px; border-radius: 100px; background:#fff; border: 1px solid #333;}
+#content .content_area .welfare li img{width: 90px; height: 90px; margin: 35px 55px 0;}
+#content .content_area .welfare .inner_box{border: 0; letter-spacing: .1em;}
+#content .content_area .welfare .inner_box ::after{content: ''; width: 700px; height: 700px; border-radius: 350px; border: 1px solid #333; background: url(http://heewon98.cafe24.com/sub5/css/../images/content2/inner.jpg); position: absolute; top: 130px; left: 50%; margin-left: -350px; opacity: .7;  z-index: -1;}
+#content .content_area .welfare .inner_box ::before{content: ''; width: 800px; height: 800px; position: absolute; top: 80px; left: 50%; margin-left: -400px; border-radius: 400px; z-index: -10; animation: ani 40s linear infinite;}
+#content .content_area .welfare .inner_box span{font-size: 50px; font-family: 'Roboto', sans-serif;}
+#content .content_area .welfare span{display: block; font-size: 18px; font-weight: 700; text-align: center; margin-top: 10px;}
+#content .content_area .welfare .img1{position: absolute; top: 10px; left: 480px;}
+#content .content_area .welfare .img2{position: absolute; top: 290px; left: 150px;}
+#content .content_area .welfare .img3{position: absolute; top: 650px; left: 250px;}
+#content .content_area .welfare .img4{position: absolute; top: 650px; right: 250px;}
+#content .content_area .welfare .img5{position: absolute; top: 290px; right: 150px;}
+
+/* 복리후생 텍스트 */
+#content .content_area .text{font-family: 'Noto Sans KR', sans-serif;}
+#content .content_area .text ul{overflow: hidden;}
+#content .content_area .text li{background: #f5f5f5; width: 270px; height: 400px; float: left; padding: 40px 30px; margin: 30px;}
+#content .content_area .text li:nth-child(4){margin-left: 240px;}
+#content .content_area .text li:nth-child(5){float: right; margin-right: 240px;}
+#content .content_area .text img{vertical-align: middle;}
+#content .content_area .text span{font-size: 22px; font-weight: 700; padding-left: 15px;  color: #186bb2;}
+#content .content_area .text p{font-size: 18px; text-align: justify; margin-top: 70px; line-height: 1.8em; letter-spacing: .3px;}

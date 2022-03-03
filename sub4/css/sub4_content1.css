@@ -1,0 +1,28 @@
+/* font-family: 'Noto Sans KR', sans-serif; font-weight:700;*/
+
+/* 안전경영 사이클 */
+#content .content_area{width: 1200px; margin: 0 auto; font-family: 'Noto Sans KR', sans-serif;}
+#content .Policy_cir{margin: 180px 0 100px;}
+#content .Policy_cir ul{position: relative; height: 700px;}
+#content .Policy_cir li{width: 350px; height: 350px; border: 1px solid #fff; border-radius:175px; text-align: center;}
+#content .Policy_cir p{text-align: center; font-size: 26px; padding-top: 130px; color: #fff;}
+#content .Policy_cir li:nth-child(1){border: 0; background: #ddd; position: absolute; top: 240px; left: 520px; width: 180px; height: 180px; border-radius: 90px;}
+#content .Policy_cir li:nth-child(2){background: rgba(24,107,178,.90); z-index: -30; position: absolute; top: 0; left: 430px;}
+#content .Policy_cir li:nth-child(3){border: 0; background: rgba(24,107,178,.60); z-index: -20; position: absolute; top: 250px; left: 280px;}
+#content .Policy_cir li:nth-child(4){border: 0; background: rgba(24,107,178,.30); z-index: -10; position: absolute; top: 250px; right: 280px;}
+#content .Policy_cir li:nth-child(1) p{font-size: 18px; padding-top: 65px; font-weight: 700; color: #455066;}
+
+/* 안전경영 텍스트 */
+#content .Policy_text{overflow: hidden; margin-bottom: 130px;}
+#content .Policy_text li{float: left; text-align: justify;}
+#content .Policy_text li:nth-child(1){margin-left: 100px;}
+#content .Policy_text li:nth-child(2){margin: 0 100px;}
+#content .Policy_text li:nth-child(3){margin-right: 100px;}
+#content .Policy_text h3{font-size: 26px; margin-bottom: 15px; color: #0c4da2;}
+#content .Policy_text p{font-size: 22px; line-height: 1.8em;}
+
+/* 설명 */
+#content .safety a{display: block;}
+#content .safety h3{font-size: 30px; transition: .2s; margin-bottom: 10px; background: linear-gradient(to top, #ccc 40%, transparent 40%); background-repeat: no-repeat; background-size: 0% 100%; border-bottom: 1px solid #ccc; padding-bottom: 10px;}
+#content .safety h3:hover{background-size: 100% 100%;}
+#content .safety p{font-size: 20px; text-align: justify; line-height: 1.8em; letter-spacing: .4px; margin-bottom: 60px;}

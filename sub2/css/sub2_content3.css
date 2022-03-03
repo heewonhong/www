@@ -1,0 +1,27 @@
+/* font-family: 'Noto Sans KR', sans-serif; font-weight:700;
+
+/* 타이틀 */
+#content .title_area{position: relative; font-family: 'Noto Sans KR', sans-serif;}
+
+/* 연구소소개 */
+#content .content_area .int01{background: #f5f5f5; font-family: 'Noto Sans KR', sans-serif; margin: 50px 0 100px 0; position: relative; z-index: 0;}
+#content .content_area .int01 h4{font-size: 30px; padding: 30px 0 0 0; z-index: 10;}
+#content .content_area .int01 h4::before{content: '01'; font-size: 45px; font-weight: 700; color: #ccc; position: absolute; left: -20px; top: -5px; z-index: -1;}
+#content .content_area .int01 ul{overflow: hidden; margin-top: 50px;}
+#content .content_area .int01 li{float: left; margin-left: 30px;}
+#content .content_area .int01 li p{margin-bottom: 30px; color: #333; font-size: 20px; font-weight: 700; margin-top: 10px; color: #186bb2; text-align: center;}
+#content .content_area .int01 a{display: block;}
+#content .content_area .int01 li img{width: 360px; height: 250px; transform: scale(1); transition: all .5s;}
+#content .content_area .int01 li:hover img{transform: scale(1.1);}
+
+/* 기술소개 */
+#content .content_area .int02{font-family: 'Noto Sans KR', sans-serif; position: relative;}
+#content .content_area .int02 h4{font-size: 30px; padding: 30px 0 40px 0;}
+#content .content_area .int02 h4::before{content: '02'; font-size: 45px; font-weight: 700; color: #ccc; position: absolute; left: -20px; top: -5px; z-index: -1;}
+#content .content_area .int02 li{margin-bottom: 80px;}
+#content .content_area .int02 dl{overflow: hidden; position: relative;}
+#content .content_area .int02 dt{background: #f5f5f5; width: 700px; font-size: 25px; font-weight: 700; padding: 10px 10px 10px 20px; color: #455066; margin-bottom: 20px;}
+#content .content_area .int02 dd{font-size: 20px; text-align: justify;}
+#content .content_area .int02 span{color: #0c4da2;}
+#content .content_area .int02 .text{padding: 70px;}
+#content .content_area .int02 img{float: left; margin: 0 40px 20px 0; box-shadow:5px 5px 10px 0 rgb(0 0 0 / 20%);}

@@ -1,0 +1,52 @@
+/* 상단 고정 sticky menu */
+#content .navOn{position: fixed; z-index:60; top: 0; left: 0; width: 100%;  background: #fff; box-shadow: 0 0 10px #999;}
+#content .navOn li::after{display: none;}
+#content .navOn li{width: 400px; float: left; margin: 0;}
+#content .navOn .current{margin-left: 200px;}
+#content .navOn li a{font-size: 22px; text-align: center; color: #0c4da2; padding: 17px 0;}
+#content .navOn li a::after{content: ''; display: none;}
+
+/* 메뉴 활성화  scroll spy */
+#content .navOn ul li .spy{background: #0c4da2; color: #fff}
+
+/* scroll animation */
+#content .boxMove{bottom:0; opacity: 1}
+
+/* 회사개요 */
+#content h2{padding-bottom: 110px;}
+#content .content_area{width: 1200px; font-family: 'Noto Sans KR', sans-serif;}
+#content .outline{position: relative; top:200px; opacity: 0; transition: all 1s ease-out; margin: 0 auto;}
+#content .outline h3{font-size: 40px; font-weight: 700; text-align: center; margin-bottom: 30px; margin-top: 110px;}
+#content .outline p{font-size: 24px; text-align: center; margin-bottom: 100px;}
+#content .outline span{color: #0c4da2; font-weight: 700;}
+#content .outline ul{position: relative;}
+#content .outline img{vertical-align: top; box-shadow: 10px 10px 20px rgb(0 0 0 / 10%); height: 460px;}
+#content .outline .outext{font-size: 18px; text-align: justify; background: #f9f9f9; width: 680px; padding: 40px; position: absolute; top: 280px; right: 0; box-shadow: 10px 10px 20px rgb(0 0 0 / 10%); line-height: 1.6em;}
+
+/* 리스트 */
+#content .list{box-sizing: border-box; margin: 320px 0 200px 0; position: relative; left:1200px; opacity: 0; transition: all .8s;} 
+#content .list ul{overflow: hidden; text-align: center; margin-left: 30px;}
+#content .list li{float: left; border: 1px solid #ccc; text-align: center; display: inline-block; margin: 100px 30px 0 0; width: 200px; padding-top: 30px; height: 230px;}
+#content .list li:first-child{border-radius: 30px 0 0 0;}  
+#content .list li:last-child{border-radius: 0 0 30px 0;} 
+#content .list dt{font-size: 25px; text-align: center; font-weight: 700;}
+#content .list dt::after{display: block; content: ''; width: 32px; height: 2px; margin: 35px auto; background: #0c4da2;}
+#content .list dd{font-size: 22px; text-align: center; margin-bottom: 50px;}
+
+/* 경영이념 */
+#content .ideology{background:url("http://heewon98.cafe24.com/sub1/images/content1/ide_back.jpg") 50% 630px no-repeat; position: relative; top:200px; opacity: 0; transition: all 1s ease-out;}
+#content .ideology h3{font-size: 40px; font-weight: 700; text-align: center;}
+#content .ideology p{font-size: 24px; margin: 40px 0 100px 0; text-align: center;}
+#content .ideology span{color: #0c4da2; font-weight: 700;}
+#content .ideology ul{overflow: hidden; }
+#content .ideology li{float: left; margin: 0 0 200px 100px;}
+#content .ideology li:nth-child(4){margin: 40px 30px 0 250px;}
+#content .ideology li:nth-child(5){margin-top: 40px; margin-bottom: 0;}
+#content .ideology a{display: block;}
+#content .ideology li:hover dd{color: #fff; opacity: 1; transition: all .2s;}
+#content .ideology dt{font-size: 25px; font-weight: 700; text-align: center; margin-top: 20px;}
+#content .ideology dd{opacity: 0; font-size: 30px; font-weight: 700; text-align: center; position: relative; bottom:220px; color: #fff;}
+
+/* 최종 목적지 */
+#content .content_area .boxMove{top: 0; opacity: 1;}
+#content .content_area .boxMove2{left: 0; opacity: 1;}

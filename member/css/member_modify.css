@@ -1,0 +1,22 @@
+body{background: #f9f9f9;}
+ul{list-style: none;}
+h1{position: relative;}
+h1 .logo{display: block; background: url(../images/logo.png) center no-repeat; background-size: contain; width: 280px; height: 100px; text-indent: -999%; overflow: hidden; margin: 0 auto; position: absolute; top: 30px; left: 50%; margin-left: -150px;}
+input {width: 455px; padding: 15px;}
+
+#content{border-top: 7px solid #0c4da2; font-family: 'Noto Sans KR', sans-serif; box-sizing: border-box; background: #fff; width: 900px; margin: 200px auto ; padding: 50px; box-shadow: 5px 5px 10px rgba(0,0,0,.1);}
+#content h2{text-align: center; font-size: 30px; margin-bottom: 40px; letter-spacing: 1.8px;}
+#content p{text-align: right; color: #666; margin-bottom: 40px;}
+
+#form_join{padding: 10px 30px;}
+#form_join table{margin: 0 auto;}
+#form_join tr{margin-bottom: 10px;}
+#form_join th{padding: 20px 20px 35px; font-size: 20px; text-align: left; }
+#form_join td{font-size: 18px; position: relative;}
+#form_join .hp{width: 120px;}
+#form_join .email{width: 200px;}
+#loadtext2{position: absolute; top: 30px; right: 20px; font-size: 14px;}
+
+#button{padding:15px 0 30px; text-align: center;}
+#button a{width: 120px; display: inline-block; letter-spacing: .1em; background: #0c4da2; color: #fff; font-size: 20px; padding: 15px 30px; margin: 50px 10px 0;}
+#button a:nth-last-child(1){background: #999;}

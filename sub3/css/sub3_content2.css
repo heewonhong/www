@@ -1,0 +1,35 @@
+/* 타이틀 */
+#content .title_area{position: relative; font-family: 'Noto Sans KR', sans-serif; margin-bottom: 50px;}
+
+/* 네임카드 */
+#content .content_area{ font-family: 'Noto Sans KR', sans-serif; position: relative;}
+#content .content_area .name_card{width: 1200px; }
+#content .content_area .name_card h3{font-size: 20px; margin-bottom: 30px; margin-top: 50px;}
+#content .content_area .name_card li{width: 180px; margin-right: 20px; border: 1px solid #ccc; display: inline-block; padding: 50px 45px; position: relative;}
+#content .content_area .name_card li:hover{border: 1px solid #0c4da2; transition:all .3s ease;}
+#content .content_area .name_card p{padding: 5px 0 15px; color: #186bb2; margin-bottom: 30px;}
+#content .content_area .name_card p::after{content: ""; display: block; position: absolute; left: 40px; top: 120px; width: 70%; height: 1px; background-color: #d9d9d9;}
+#content .content_area .name_card span{font-size: 24px; font-weight: 700; line-height: 30px;}
+#content .content_area .name_card dl{font-size: 18px; line-height: 1.5em; letter-spacing: .5px;}
+#content .content_area .name_card dt{color: #666;}
+#content .content_area .name_card dd{margin-bottom: 20px;}
+
+/* 위원회 설치 현황 */
+#content .content_area .committee{margin-top: 160px; position: relative;}
+/*이미지*/
+#content .content_area .committee .image{background: url(../images/content2/com.jpg); position: relative; left: 50%; margin-left: -1000px; width: 2000px; height: 480px;}
+/*이미지 텍스트*/
+#content .content_area .committee .txt{text-align: center; position: relative;}
+#content .content_area .committee .txt h3{font-weight:700; text-align: center; font-size: 40px; color: #fff; position: absolute; bottom: 330px; left: 40%; }
+#content .content_area .committee .txt .com1{margin-top: 20px; font-size: 20px; color: #fff; text-align: center; position: absolute; bottom: 290px; left: 44%;} 
+/*컨텐츠*/
+#content .content_area .committee .bot_box{position: relative; top: -130px; left: 100px; box-sizing: border-box; background: #fff; width: 1000px; overflow: hidden; padding: 90px 150px; display: flex; box-shadow: 5px 5px 5px rgb(0 0 0 / 20%);} 
+#content .content_area .committee .box{width: 640px;}
+#content .content_area .committee .box ul{float: left;}
+#content .content_area .committee .box .rig{float: right; margin-left: 30px;}
+#content .content_area .committee .box p{font-size: 16px; line-height: 24px; color: #666; margin:10px 0 50px; padding-bottom: 50px; border-bottom: 1px solid #ccc;}
+#content .content_area .committee .box span{font-size: 20px; line-height: 28px; font-weight: 700;}
+#content .content_area .committee .box dl{overflow: hidden;}
+#content .content_area .committee .box dt{font-size: 18px; color: #666; float: left; margin-right: 30px;}
+#content .content_area .committee .box dd{font-size: 18px; float: right;}
+

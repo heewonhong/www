@@ -1,0 +1,60 @@
+@keyframes text{
+    from{opacity: 0; transform:translateY(50px);}
+    percentage{opacity: .5; transform:translateY(30px);}
+    to{opacity: 1; transform:translateY(0);}
+}
+
+/* 상단 고정 sticky menu */
+#content .navOn{position: fixed; z-index:60; top: 0; left: 0; width: 100%;  background: #fff; box-shadow: 0 0 10px #999;}
+#content .navOn li::after{display: none;}
+#content .navOn li{width: 400px; float: left; margin: 0;}
+#content .navOn .current{margin-left: 200px;}
+#content .navOn li a{font-size: 22px; text-align: center; color: #0c4da2; padding: 17px 0;}
+#content .navOn li a::after{content: ''; display: none;}
+
+/* 메뉴 활성화  scroll spy */
+#content .navOn ul li .spy{background: #0c4da2; color: #fff}
+
+/* scroll animation */
+#content .boxMove{bottom:0; opacity: 1}
+
+
+/* 타이틀 */
+#content .title_area{position: relative; font-family: 'Noto Sans KR', sans-serif;}
+#content .title_area p{font-size: 24px; text-align: center; margin: 40px 0; padding-bottom: 110px; animation: text .6s ease-out forwards;}
+#content .title_area span{color: #0c4da2; font-weight: 700;}
+
+/* 선박의종류 */
+#content .content_area{font-family: 'Noto Sans KR', sans-serif; width: 1200px; left: 50%; margin: 0 auto; margin-top: 110px;}
+#content .content_area h3{font-size: 40px; font-weight: 700; text-align: center; margin-bottom: 50px;}
+#content .content_area .type{width: 2000px; height: 400px; position: relative; left: 50%; margin-left: -1000px; font-family: 'Noto Sans KR', sans-serif; overflow: hidden; margin-bottom: 120px; background: url(../images/content3/inf.jpg) center no-repeat; background-size: cover; background-attachment: fixed; z-index: 1;}
+#content .content_area .type .opa{width: 100%; height: 400px; position: relative; background: #333; opacity: 0.5; z-index: -1;}
+#content .content_area .type .inf{width: 1000px; height: 400px; position: absolute; top: 0; left: 50%; margin-left: -500px; margin-top: 70px;}
+#content .content_area .type .inf p{color: #ccc; font-size: 18px; margin-bottom: 20px; text-align: center;}
+#content .content_area .type .inf span{font-size: 24px; font-weight: 700; color: #fff;} 
+
+#content .content_area .tab{width: 1200px; margin: 130px 0 200px 0;}
+#content .content_area .tab li{margin-bottom: 60px; background: #f5f5f5; padding: 40px; border-radius:70px 0 70px 0;}
+#content .content_area .tab table{text-align: justify; position: relative;}
+#content .content_area .tab caption{color:#666; text-align: left; margin: 5px 0 40px 15px; font-size: 22px; font-weight: 700;}
+#content .content_area .tab ul li:nth-child(1) caption::before{content: '01';}
+#content .content_area .tab ul li:nth-child(2) caption::before{content: '02';}
+#content .content_area .tab ul li:nth-child(3) caption::before{content: '03';}
+#content .content_area .tab ul li:nth-child(4) caption::before{content: '04';}
+#content .content_area .tab ul li:nth-child(5) caption::before{content: '05';}    
+#content .content_area .tab caption::before{color: rgba(69, 80, 102,.2); font-size: 50px; position: absolute; top: -35px; left: -10px;}
+#content .content_area .tab th{padding-right: 15px; width: 140px; vertical-align: middle;}
+#content .content_area .tab td{line-height: 1.8em; letter-spacing: .1px; text-align: justify; border-bottom: 2px solid #ccc; border-style: dashed; padding: 10px 0;}
+#content .content_area .tab dl{margin-top: 10px;}
+#content .content_area .tab dt{color: #0c4da2;}
+ 
+/* 선박건조과정 */
+#content .content_area .process{width: 1200px; margin: 0 auto;}
+#content .content_area .process li{width: 800px; height: 300px; margin: 0 0 20px 200px; position: relative;}
+#content .content_area .process li::before{content:''; width: 800px; height: 230px; border: 1px solid #0c4da2; position: absolute; left: 0; top: 0;}
+#content .content_area .process img:nth-of-type(1){width: 150px; float: left; margin: 40px 0 0 50px;}
+#content .content_area .process img:nth-of-type(2){width: 50px; position: absolute; left: 50%; bottom: 0;}
+#content .content_area .process dl{float: left; margin: 70px 0 0 50px; } 
+#content .content_area .process dt{font-size: 26px; font-weight: 700; margin-bottom: 10px;}
+#content .content_area .process dd{font-size: 20px; color: #666; line-height: 1.7em;}
+

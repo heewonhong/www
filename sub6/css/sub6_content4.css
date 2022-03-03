@@ -1,0 +1,29 @@
+@keyframes text{
+    from{opacity: 0; transform:translateY(50px);}
+    percentage{opacity: .5; transform:translateY(30px);}
+    to{opacity: 1; transform:translateY(0);}
+}
+
+/* 타이틀 */
+#content .title_area{position: relative; font-family: 'Noto Sans KR', sans-serif; margin-bottom: 170px;}
+#content .title_area p{font-size: 24px; text-align: center; margin: 40px 0 ; animation: text .6s ease-out forwards;}
+#content .title_area p::after{content: ''; position: absolute; top:80px; left: 50%; height: 40px; width: 5px; background: #0c4da2; animation: text .6s ease-out forwards;}
+#content .title_area span{color: #0c4da2; font-weight: 700;}
+
+/* 개인정보처리방침 */
+#content .consent{padding: 30px 20px;  margin-top: 50px; position: relative;}
+#content .consent h4{font-weight: 700; font-size: 26px; margin-bottom: 40px; letter-spacing: .8px;}
+#content .consent dl{background: #f5f5f5; padding: 20px}
+#content .consent dt{margin-bottom: 17px; font-weight: 400; letter-spacing: .5px; line-height: 1.6em;}
+#content .consent dd{margin-bottom: 10px; letter-spacing: .5px; line-height: 1.4em;}
+
+/* 문의사항 */
+.mail_content{margin-top: 60px;}
+.control-group{position: relative;}
+.form-control{height: 50px; padding: 5px 10px; background-color: #f5f5f5;}
+.form-group {margin-bottom: 40px;}
+label{font-weight: 400; font-size: 18px; margin: 0 25px; padding-bottom: 15px;}
+label::after{content: ''; width: 8px; height: 8px; border-radius: 50%; background: #0c4da2; position: absolute; left: 20px; top: 10px;}
+.btn-success{border-color: transparent; background-color: #0c4da2;}
+.btn-success:hover{border-color: #0c4da2; background-color: #fff; color: #0c4da2;}
+.butt{text-align: center;}

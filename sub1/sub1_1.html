@@ -1,0 +1,161 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회사소개-기업정보</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub1common.css">
+    <link rel="stylesheet" href="./css/sub1_content1.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+<body>
+
+    <? include "../common/sub_header.html" ?>
+    
+        <!-- 비주얼영역 -->
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="비주얼이미지">
+            <h3>회사소개</h3>
+            <p>COMPANY INTRODUCTION</p>
+        </div>
+
+        <!-- 서브메뉴 -->
+        <div class="sub_menu">
+            <ul>
+                <li class="current"><a href="./sub1_1.html">기업정보</a></li>
+                <li><a href="./sub1_2.html">거제조선소 소개</a></li>
+                <li><a href="./sub1_3.html">연혁</a></li>
+                <li><a href="./sub1_4.html">사업장안내</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+            <!-- 타이틀 -->
+            <div class="title_area">
+                <div class="line_map">
+                    HOME &gt; 회사소개 &gt; <strong>기업정보</strong>
+                </div>
+
+                <h2>기업정보</h2>
+
+                <div class="navBox">
+                    <ul class="tab_menu">
+                        <li class="current"><a class="link1 spy" href="#">회사개요</a></li>
+                        <li><a class="link2" href="#">경영이념</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content_area">
+                <section class="outline con1">
+                    <h3>회사개요</h3>
+                    <p>“<span>삼성중공업</span>은 조선·해양 분야에서 세계최고를 지향합니다.”</p>
+                    <ul>
+                        <li>
+                            <img src="./images/content1/out01.jpg" alt="기업이미지">
+                            <p class="outext">삼성중공업은 조선·해양 사업분야에서 세계 최고를 지향하며 다양한 프로젝트를 성공적으로 수행해 왔습니다.<br> 
+                                <br>1974년 창업 이후 2020년 12월까지 세계 유수의 선사로부터 선박과 해양설비 1,285척을 수주해 그 중 1,179척을 성공적으로 인도한 삼성중공업은 첨단기술, 생산효율, 고부가가치선 분야에서 세계최고를 지향하며, 독보적인 사업 경쟁력을 갖추고 있습니다. 조선·해양사업 분야에서 차별화된 기술 경쟁력과 턴키 제작능력을 축적했으며 해양개발 설비의 핵심인 탑사이드 설계·시공 능력을 갖췄습니다.<br>
+                                <br>조선해양산업은 지식 기반의 복합 엔지니어링 사업으로서 다른 산업과의 연계 및 기술 파급효과가 클 뿐 아니라 기술, 자본, 노동이 집약적으로 투입되는 산업으로, 높은 기술 수준과 대규모 자본, 우수한 노동력을 필요로 합니다. 또한 조선해양사업은 전 세계가 단일 시장을 형성하고 있으며, 선주로부터 고가의 선박을 미리 주문 받아 생산하는 대표적 수주 산업입니다. 고가의 선박을 건조하는 만큼, 삼성중공업은 기술개발 및 고객만족을 통해 경쟁력을 확보하고, 신규시장을 개척하는 등 다양한 노력을 기울이고 있습니다.</p>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- 리스트 -->
+                <div class="list">
+                    <ul>
+                        <li>
+                            <dl>
+                                <dt>회사명</dt>
+                                <dd>삼성중공업<br>주식회사</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>창립일</dt>
+                                <dd>1974년 8월 5일</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>대표이사</dt>
+                                <dd>정진택</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>총자산</dt>
+                                <dd>12,922,171<br>백만원</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>직원 수</dt>
+                                <dd>9,886명</dd>
+                            </dl>
+                            </li>
+                        </ul> 
+                    </div>
+
+                <!-- 경영이념 -->
+                <section class="ideology con2">
+                    <h3>경영이념</h3>
+                    <p>“인재와 기술을 바탕으로 <span>최고의 제품</span>과 서비스를 창출하여 <span>인류사회에 공헌</span> 합니다.”</p>
+
+                    <ul>
+                        <li>
+                            <a href="#"><img src="./images/content1/ide01.jpg" alt="인재제일이미지"></a>
+                            <dl>
+                                <dt>인재제일</dt>
+                                <dd>People</dd>
+                            </dl>
+                            
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/content1/ide02.jpg" alt="최고지향이미지"></a>
+                            <dl>
+                                <dt>최고지향</dt>
+                                <dd>Excellence</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/content1/ide03.jpg" alt="변화선도이미지"></a>
+                            <dl>
+                                <dt>변화선도</dt>
+                                <dd>Change</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/content1/ide04.jpg" alt="정도경영이미지"></a>
+                            <dl>
+                                <dt>정도경영</dt>
+                                <dd>Integrity</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/content1/ide05.jpg" alt="상생추구이미지"></a>
+                            <dl>
+                                <dt>상생추구</dt>
+                                <dd>Co-prosperity</dd>
+                            </dl>
+                        </li> 
+                    </ul>
+                </section>
+            </div>
+        </article>
+       
+        <? include "../common/sub_footer.html" ?>
+
+        <script src="./js/slide_move.js"></script>
+        <script src="./js/scroll1_1.js"></script>
+</body>
+</html>

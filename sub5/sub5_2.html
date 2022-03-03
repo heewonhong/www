@@ -1,0 +1,108 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인재채용-복리후생</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub5common.css">
+    <link rel="stylesheet" href="./css/sub5_content2.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+        <!-- 비주얼영역 -->
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="비주얼이미지">
+            <h3>인재채용</h3>
+            <p>RECRUITMENT</p>
+        </div>
+
+        <!-- 서브메뉴 -->
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub5_1.html">인재상</a></li>
+                <li class="current"><a href="./sub5_2.html">복리후생</a></li>
+                <li><a href="./sub5_3.html">채용절차</a></li>
+                <li><a href="../download/list.php">채용공고</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+            <!-- 타이틀 -->
+            <div class="title_area">
+                <div class="line_map">HOME &gt; 인재채용 &gt; <strong>복리후생</strong></div>
+                <h2>복리후생</h2>
+                <p>“ 삼성인이 보다 <span>질높은 삶</span>을 추구할 수 있도록 노력하고 있습니다. ”</p>
+            </div>
+
+            <div class="content_area">
+               <div class="welfare">
+                    <ul>
+                        <li class="inner_box"><span>More Better Life</span></li>
+                        <li class="img1">
+                            <img src="./images/content2/wel01.png" alt="주택지원">
+                            <span>주택지원</span>
+                        </li>
+                        <li class="img2">
+                            <img src="./images/content2/wel02.png" alt="자녀교육지원">
+                            <span>자녀교육지원</span>
+                        </li>
+                        <li class="img3">
+                            <img src="./images/content2/wel03.png" alt="여가생활지원">
+                            <span>여가생활지원</span>
+                        </li>
+                        <li class="img4">
+                            <img src="./images/content2/wel04.png" alt="의료지원">
+                            <span>의료지원</span>
+                        </li>
+                        <li class="img5">
+                            <img src="./images/content2/wel05.png" alt="노후생활지원">
+                            <span>노후생활지원</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="text">
+                    <ul>
+                        <li>
+                            <img src="./images/content2/wel01.png" alt="주택지원">
+                            <span>주택지원</span>
+                            <p>독신자를 위한 생활관 운영, 임대아파트 제공, 지방근무자를 위한 사택지원, 기혼근무자를 위한 주택구입 및 전세자금지원 등을 통하여 사원의 Life Style에 맞는 주거환경을 제공합니다.</p>
+                        </li>
+                        <li>
+                            <img src="./images/content2/wel02.png" alt="자녀교육지원">
+                            <span>자녀교육지원</span>
+                            <p>회사별 장학제도와 교육시스템 등을 통하여 사원자녀의 학비지원은 물론 양질의 교육을 받을 수 있는 기회를 제공 하고 있습니다.</p>
+                        </li>
+                        <li>
+                            <img src="./images/content2/wel03.png" alt="여가생활지원">
+                            <span>여가생활지원</span>
+                            <p>사원의 질 높은 문화 교양생활과 건전한 휴식을 위한 비용 및 시설을 적극 지원하고 있습니다. 회사 차원의 다양한 문화 교양 프로그램 제공, 휴양소 지원 및 스포츠 레저 활동에 대한 지원이 이루어지고 있습니다.</p>
+                        </li>
+                        <li>
+                            <img src="./images/content2/wel04.png" alt="의료지원">
+                            <span>의료지원</span>
+                            <p>사원과 사원자녀의 질병 치료 및 건강 유지를 위해 최고의 의료 서비스를 제공하고 있습니다. 정기적으로 사원의 건강진단을 실시하고 있으면 질병에 걸렸을 때는 적극적인 의료지원 뿐만 아니라 의료비도 지원해 주고 있습니다.</p>
+                        </li>
+                        <li>
+                            <img src="./images/content2/wel05.png" alt="노후생활지원">
+                            <span>노후생활지원</span>
+                            <p>노후에도 안정되고 편안한 생활이 될 수 있도록 회사차원에서 다양한 연금을 지원하고 있습니다.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+        <? include "../common/sub_footer.html" ?>
+</body>
+</html>

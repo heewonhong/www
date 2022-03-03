@@ -1,0 +1,41 @@
+@keyframes up {
+    from{opacity: 0; transform: translateY(100px);}
+    to{opacity: 1; transform: translateY(0);}
+}
+
+/* 타이틀 */
+#content .title_area{position: relative; font-family: 'Noto Sans KR', sans-serif;}
+
+/* 채용절차 */
+#content .content_area{font-family: 'Noto Sans KR', sans-serif;}
+#content .content_area .office h3{font-size: 40px; font-weight: 700; margin:70px 0;}
+#content .content_area .office ul{overflow: hidden; margin-bottom: 110px; padding: 50px 0; position: relative;}
+#content .content_area .office li{width: 180px; height: 180px; border: 1px solid #ddd; border-radius: 90px; margin-right: 70px; float: left; box-shadow: 5px 10px 10px 0px rgb(0 0 0 / 20%); animation: text 1s ease-out forwards;}
+#content .content_area .office li:nth-child(1){animation-delay: .7s;}
+#content .content_area .office li:nth-child(2){animation-delay: 1s;}
+#content .content_area .office li:nth-child(3){animation-delay: 1.3s;}
+#content .content_area .office li:nth-child(4){animation-delay: 1.6s;}
+#content .content_area .office li:nth-child(5){animation-delay: 1.9s;}
+#content .content_area .office li:nth-child(1)::before{content: ''; width: 40px; height: 20px; position: absolute; top: 50%; left: 200px; background: url(http://heewon98.cafe24.com/sub5/css/../images/content3/arrow.png) center no-repeat;}
+#content .content_area .office li:nth-child(2)::before{content: ''; width: 40px; height: 20px; position: absolute; top: 50%; left: 200px; background: url(http://heewon98.cafe24.com/sub5/css/../images/content3/arrow.png) center no-repeat;}
+#content .content_area .office li:nth-child(3)::before{content: ''; width: 40px; height: 20px; position: absolute; top: 50%; left: 200px; background: url(http://heewon98.cafe24.com/sub5/css/../images/content3/arrow.png) center no-repeat;}
+#content .content_area .office li:nth-child(4)::before{content: ''; width: 40px; height: 20px; position: absolute; top: 50%; left: 200px; background: url(http://heewon98.cafe24.com/sub5/css/../images/content3/arrow.png) center no-repeat;}
+#content .content_area .office li:nth-child(5){margin: 0;}
+#content .content_area .office img{padding: 30px 55px 0 55px;}
+#content .content_area .office p{font-size: 18px; text-align: center; margin-top: 15px;}
+
+/* 채용절차-text */
+#content .content_area .text li{border-bottom: 1px solid #ccc; padding: 20px 10px 20px 20px;}
+#content .content_area .text li:nth-child(1){border-top: 5px double #ccc;}
+#content .content_area .text li:nth-child(4){padding-top: 20px; padding-bottom: 40px;}
+#content .content_area .text li:nth-child(5){border-bottom: 5px double #ccc; padding-top: 20px; padding-bottom: 40px;}
+#content .content_area .text dt{font-size: 24px; letter-spacing: .4px; width: 300px; float: left;}
+#content .content_area .text dd{font-size: 18px; color: #666; line-height: 1.7em; margin-top: 10px;}
+#content .content_area .text span{font-weight: 700; color: #333;}
+
+/* 채용절차-지원자격 */
+#content .content_area .text .txt2{margin-bottom: 100px;}
+#content .content_area .text .txt2 li{border: 0;}
+#content .content_area .text .txt2 dt{font-size: 20px; font-weight: 700; color: #186bb2; width: 100px;}
+#content .content_area .text .txt2 dd{line-height: 1.6em; margin-top: 10px;}
+

@@ -1,0 +1,22 @@
+#content .content_area{width: 1200px; margin: 100px auto;}
+#content h2 {text-align: center; animation: none; font-size: 50px; font-weight: 700;}
+
+#write_form{margin-bottom: 50px;}
+.col1{font-weight: 700; font-size: 18px; padding: 5px 20px; margin: 0 30px;}
+#write_row1{padding: 15px 0; border-bottom: 1px solid #ccc; border-top: 4px solid #186bb2; overflow: hidden; font-size: 18px;}
+#write_row1 .col1{float: left;}
+#write_row1 .col2{float: left; text-align: center; padding: 5px 20px 5px 0;}
+#write_row1 .col3{float: right; padding: 5px 20px;}
+#write_row2{padding: 15px 0; overflow: hidden; border-bottom: 1px solid #ccc; }
+#write_row2 .col1{float: left; margin-top: 5px;}
+#write_row2 .col2{float: left;}
+#write_row2 .col2 input{width: 800px; border: none; background: #f2f2f2; padding: 15px; font-family: 'Noto Sans KR', sans-serif;}
+#write_row3{padding: 15px 0; overflow: hidden; border-bottom: 1px solid #ccc; }
+#write_row3 .col1{float: left; margin-top: 5px;}
+#write_row3 .col2{float: left;}
+#write_row3 .col2 textarea{width: 800px; border: none; background: #f2f2f2; padding: 15px; font-family: 'Noto Sans KR', sans-serif;}
+
+/* 버튼 */
+#write_button{text-align: right;}
+#write_button input{font-size: 16px; border: none; background: #0c4da2; color: #fff; padding: 11px 20px; margin-left: 15px; border-radius: 5px; text-align: center;}
+#write_button a{background: #0c4da2; color: #fff; padding: 10px 20px; margin-left: 15px; border-radius: 5px; text-align: center;}

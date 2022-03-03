@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700&family=Roboto:wght@100;300;400;700&display=swap');
+/* CSS Reset */
+
+html, body, div , span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin: 0; padding: 0; border: 0; font-size: 100%;}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{display: block;}
+body{font-family: "돋움", Dotum,"굴림",Gulim, sans-serif; font-size: 16px; color: #333}
+ol, ul{list-style: none;}
+table{border-collapse: collapse; border-spacing: 0;}
+address{font-style: normal}
+a{color: #333; text-decoration: none}
+img{border: 0; vertical-align: top}
+
+.hidden{display: block; position: absolute;left: -1000%; width: 1px; height: 1px; overflow: hidden; color: #fff}
+
+/* skipNav */
+#skipNav{position:relative; width:100%;overflow:hidden; z-index: 110;}
+#skipNav a{display:block; height:1px; margin-bottom:-1px;
+overflow:hidden; text-align:center; color:#fff; font-size:16px; font-weight: bold;}
+#skipNav a:hover,#skipNav a:focus,#skipNav a:active{
+height:auto;padding:10px 0; background:#0c4da2;}
+
+
+/* 
+font-family: 'Noto Sans KR', sans-serif; font-weight:700;
+font-family: 'Roboto', sans-serif; */
+
+
+.wrap{width: 100%; overflow: hidden;}
+
+/* header 공통영역 */  
+#headerArea{width: 100%; height: 130px; position: fixed; left: 0; top: 0; z-index: 100; background: #fff; box-shadow: 0px 0px 5px 0px #ccc;}
+#headerArea .header_inner{width: 1200px; margin: 0 auto;}
+#headerArea .header_inner::after{content:''; display: block; clear: both;}
+#headerArea .header_inner .logo{width: 108px; float: left; margin: 25px 0 0 30px;}
+#headerArea .header_inner .logo a{display: block; width: 108px; height: 82px; background:url("http://heewon98.cafe24.com/common/css/../images/header_logo.jpg") 0 0 no-repeat; text-indent: -999px; overflow: hidden;}
+#headerArea .header_right{float:left; width: 1000px;}
+#headerArea .header_right .top_menu{overflow: hidden; font-family: 'Noto Sans KR', sans-serif; color: #666;}
+#headerArea .header_right .top_menu ul{float:right; overflow: hidden; margin: 16px 10px 0 0px;}
+#headerArea .header_right .top_menu li{float: left; width: 60px; text-align: center; color: #666; margin-right: 10px;}
+#headerArea .header_right .top_menu li a:hover{font-weight: 700; color: #0c4da2;}
+
+
+/* 네비영역 */
+#headerArea #gnb{margin-top: 20px;} 
+#headerArea	#gnb ul.dropdownmenu{width:1000px; font-family: 'Noto Sans KR', sans-serif; font-size: 22px;}
+#headerArea	#gnb ul.dropdownmenu::after{content:''; display: block; clear: both;}
+#headerArea	#gnb ul.dropdownmenu li.menu{position:relative; float:left; width:16.66%; height: 70px;} /*열리기 전 높이*/
+#headerArea #gnb ul.dropdownmenu li a.depth1{display:block; padding: 20px 0; text-align: center; transition: all .2s; width: 181px; font-weight: 700;}
+#headerArea #gnb ul.dropdownmenu .menu::after{content: ''; display: block; width: 0; height: 3px; background: #0c4da2; position: absolute; bottom: 10px; left: 50%; transition: all .4s; opacity: 0;}
+#headerArea #gnb ul.dropdownmenu .menu:hover::after{width: 70%; left: 33px; opacity: 1;}
+
+
+/* 2depth */
+#headerArea	#gnb ul.dropdownmenu li ul{width:100%; height:120px; position:absolute; top:70px; left:0; height: 210px; padding:15px 14px 0 0; line-height:2em; display:none;} /*top가 50인이유는 위에 heigth가 50이라*/
+#headerArea	#gnb ul.dropdownmenu li ul li{ text-align:center; font-weight: 400; font-size: 18px; padding-left: 18px;}
+#headerArea	#gnb ul.dropdownmenu li ul li a{display:block;  color:#666; transition: all .2s;}
+#headerArea	#gnb ul.dropdownmenu li ul li a:hover{color: #0c4da2;}
+
+
+/* footer 공통영역 */  
+#footerArea{height: 160px; width: 100%; clear: both; margin-top: 200px; background: #2e2e2e; font-family: 'Noto Sans KR', sans-serif; color: #999; font-size: 14px;}
+#footerArea .footer_inner{width: 1200px; margin: 0 auto; }
+#footerArea .footer_logo{width: 250px; height: 160px; float: left; margin-right: 30px;}
+#footerArea .footer_logo img{margin: 30px 0 0 75px; width: 125px; height: 94px;}
+#footerArea .footer_mid{overflow: hidden; float: left; text-align: justify; width: 500px;}
+#footerArea .footer_menu{float: left; margin: 3px 0 0 20px;}
+#footerArea .footer_menu ul{overflow: hidden; margin-bottom: 17px; color: #999; margin:25px 30px 20px 0;}
+#footerArea .footer_menu a{float: left; margin-right: 30px;  color:#999;}
+#footerArea .footer_right{float: left; width: 350px; }
+#footerArea .footer_right .sns{float: left; overflow: hidden; margin: 40px 0 0 135px;}
+#footerArea .footer_right .sns a{margin-right: 10px; float: left; text-align: center; }
+#footerArea .footer_right .family{font-family: 'Noto Sans KR', sans-serif; width: 170px; height: 35px; border: 1px solid #ccc; margin: 90px 0 0 90px; position: relative;} 
+#footerArea .footer_right .family .arrow{display: block; color: #999; font-size: 16px; padding: 5px 0 0 15px; }
+#footerArea .footer_right .family i{padding-left: 40px;}
+#footerArea .footer_right .family .list{width: 172px; position: absolute; top: -191px; left: -1px; color: #fff; display: none;}
+#footerArea .footer_right .family .list li{line-height: 1.3em;}
+#footerArea .footer_right .family .list li a{display: block; background: #f1f1f1; padding: 10px 0 10px 15px; font-size: 16px;}
+#footerArea .footer_right .family .list li:hover a{background: #ccc;}
+
+/* top move */
+.topMove{display: block; position: fixed; left: 50%; margin-left: 650px; bottom: 190px; z-index: 50;}
+.topMove i{font-size: 50px; color: #0c4da2;}
+
+
+
+
+
+
+
+
+
+
+
+
+

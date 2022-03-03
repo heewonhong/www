@@ -1,0 +1,68 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회사소개-연혁</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub1common.css">
+    <link rel="stylesheet" href="./css/sub1_content3.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+    <!-- 비주얼영역 -->
+    <div class="visual">
+        <img src="./common/images/visual.jpg" alt="비주얼이미지">
+        <h3>회사소개</h3>
+        <p>COMPANY INTRODUCTION</p>
+    </div>
+
+    <!-- 서브메뉴 -->
+    <div class="sub_menu">
+        <ul>
+            <li><a href="./sub1_1.html">기업정보</a></li>
+            <li><a href="./sub1_2.html">거제조선소 소개</a></li>
+            <li class="current"><a href="./sub1_3.html">연혁</a></li>
+            <li><a href="./sub1_4.html">사업장안내</a></li>
+        </ul>
+    </div>
+
+    <article id="content">
+        <!-- 타이틀 -->
+        <div class="title_area">
+            <div class="line_map">HOME &gt; 회사소개 &gt; <strong>연혁</strong></div>
+            <h2>연혁</h2>
+            <p>“삼성중공업의 역사는 <span>대한민국 중공업의 역사</span>입니다.”</p>
+        </div>
+
+        <!-- 연혁 -->
+        <div class="content_area">
+            <div id="tab_menu">
+                <ul>
+                    <li><a class="current" href="data1_3.html#tablist1">현재~2010</a></li>
+                    <li><a href="data1_3.html#tablist2">2009~2000</a></li>
+                    <li><a href="data1_3.html#tablist3">1999~1990</a></li>
+                    <li><a href="data1_3.html#tablist4">1989~1974</a></li>
+                </ul>
+            </div>
+
+            <div id="details">
+                
+            </div>
+        </div>
+    </article>
+    <? include "../common/sub_footer.html" ?>
+
+    <script src="./js/tab.js"></script>
+</body>
+</html>

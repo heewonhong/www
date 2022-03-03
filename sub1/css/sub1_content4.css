@@ -1,0 +1,34 @@
+/* font-family: 'Noto Sans KR', sans-serif; font-weight:700;*/
+
+/* 타이틀 */
+#content .content_area{margin-top: 200px;}
+#content .content_area dt::after{content: ''; position: absolute; top: 50px; left: 35%; height: 5px;  width: 40px; background: #0c4da2;}
+#content .box1{overflow: hidden; font-family: 'Noto Sans KR', sans-serif; position: relative; border-bottom: 1px solid #ddd; margin-bottom: 50px;}
+#content .box1 img{float: left; border: 0; vertical-align: top; height: 260px;}
+#content .box1 dl{float: left; text-align: left; padding: 70px;}
+#content .box1 dt{font-size: 30px; font-weight: 700; margin-bottom: 20px;}
+#content .box1 dd{font-size: 20px; margin-top: 20px;}
+
+#content .box2{overflow: hidden; font-family: 'Noto Sans KR', sans-serif; position: relative; border-bottom: 1px solid #ddd; margin-bottom: 50px;}
+#content .box2 img{float: left; border: 0; vertical-align: top; height: 260px;}
+#content .box2 dl{float: left; text-align: left; padding: 70px;}
+#content .box2 dt{font-size: 30px; font-weight: 700; margin-bottom: 20px;}
+#content .box2 dd{font-size: 20px; margin-top: 20px;}
+
+#content .box3{overflow: hidden; font-family: 'Noto Sans KR', sans-serif; position: relative; border-bottom: 1px solid #ddd; margin-bottom: 50px;}
+#content .box3 img{float: left; border: 0; vertical-align: top; height: 260px;}
+#content .box3 dl{float: left; text-align: left; padding: 70px;}
+#content .box3 dt{font-size: 30px; font-weight: 700; margin-bottom: 20px;}
+#content .box3 dd{font-size: 20px; margin-top: 20px;}
+
+#map1{border: 1px solid #ccc; margin-bottom: 100px; width: 1200px; height: 500px;}
+#map2{border: 1px solid #ccc; margin-bottom: 100px; width: 1200px; height: 500px;}
+#map3{border: 1px solid #ccc; margin-bottom: 100px; width: 1200px; height: 500px;}
+
+#content .fas{display: block; position: absolute; font-size: 50px; color: #999;} 
+#content .box1 .fas{bottom: 50px; right: 30px; transition: all .5s;}
+#content .box1:hover .fas{color: #0c4da2; transform: translateY(-20px);}
+#content .box2 .fas{bottom: 50px; right: 30px;  transition: all .5s;}
+#content .box2:hover .fas{color: #0c4da2; transform: translateY(-20px);}
+#content .box3 .fas{bottom: 50px; right: 30px;  transition: all .5s;}
+#content .box3:hover .fas{color: #0c4da2; transform: translateY(-20px);}

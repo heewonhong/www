@@ -1,0 +1,25 @@
+body{background: #f9f9f9;}
+ul{list-style: none;}
+h1{position: relative;}
+h1 .logo{display: block; background: url(../images/logo.png) center no-repeat; background-size: contain; width: 280px; height: 100px; text-indent: -999%; overflow: hidden; margin: 0 auto; position: absolute; top: 30px; left: 50%; margin-left: -150px;}
+
+#content{font-family: 'Noto Sans KR', sans-serif; box-sizing: border-box; background: #fff; width: 650px; margin: 200px auto ; padding: 60px 60px 70px; box-shadow: 5px 5px 10px rgba(0,0,0,.1);}
+#content h2{font-size: 30px; margin-bottom: 40px; letter-spacing: 1px;}
+
+#id_pw_input li{margin-bottom: 20px; position: relative;}
+#id_pw_input li i{position: absolute; top: 22px; left: 15px; font-size: 20px; color: #666;}
+#id_pw_input .login_input{width: 86%; margin: 0 auto; padding: 20px 20px 20px 45px; font-size: 18px;}
+#id_pw_input:nth-child(2){margin-bottom: 50px;}
+
+#login_button .btnlog{width: 525px; padding: 20px; background: #0c4da2; border: 0; color: #fff; font-size: 18px;}
+
+.serch ul{margin: 50px 0 70px; text-align: center; overflow: hidden;}
+.serch li{margin: 0 10px; font-size: 18px; float: left;}
+.serch li:last-child a{margin: 0 5px; position: relative; top: 0; left: 190px; text-decoration: underline;}
+.serch li a{display: inline-block; color: #666;}
+.serch li a i{margin-right: 8px;}
+.serch li a:hover{color: #333; transition: all .3s;}
+
+.join{text-align: center; font-size: 18px;}
+.join span{margin-right: 10px;}
+.join a{font-weight: 700; color:#186bb2;}

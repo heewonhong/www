@@ -1,0 +1,18 @@
+#content .content_area{width: 1200px; margin: 100px auto;}
+#content h2 {text-align: center; animation: none; font-size: 50px; font-weight: 700;}
+
+/* 타이틀 */
+#view_title1{padding: 15px 20px; border-top: 2px double #999; border-bottom: 1px solid #ccc; background: #f2f2f2; font-size: 18px; font-weight: 700; margin-bottom: 5px;}
+#view_title2{overflow: hidden; padding: 8px 20px; border-bottom: 1px solid #ccc;}
+#view_title2 li{float: left; font-size: 14px;}
+#view_title2 li:nth-child(1){font-weight: 700;}
+#view_title2 li:nth-child(2){float: right;}
+#view_title2 li:nth-child(3){float: right; margin-right: 15px;}
+#view_title2 li i{margin-right: 5px; color: #666; font-weight: 700;}
+
+/* 컨텐츠 */
+#view_content{letter-spacing: .9px; line-height: 1.4em; padding: 50px 20px; text-align: justify; border-bottom: 1px solid #ccc;}
+
+/* 버튼 */
+#view_button{margin-top: 40px; float: right;}
+#view_button a{width: 45px; float: left; text-align: center;margin-right: 8px; background: #0c4da2; color: #fff; padding: 10px 15px; border-radius: 5px;}

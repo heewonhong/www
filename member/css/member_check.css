@@ -1,0 +1,22 @@
+body{background: #f9f9f9;}
+#content{width: 900px; margin: 150px auto 100px; padding: 50px; font-family: 'Noto Sans KR', sans-serif;}  
+#content .sub_cont_wrap{position: relative;}
+#content .sub_cont_wrap .logo a{display: block; background: url(../images/logo.png) center no-repeat; background-size: contain; width: 280px; height: 100px; text-indent: -999%; overflow: hidden; margin: 0 auto; position: absolute; top: -170px; left: 50%; margin-left: -140px;}
+.join{text-align: left; position: relative;}
+.all_box{position: relative; top: 0; left: 83%;}
+.all_box a{font-size: 20px;}
+.allcheck i{color: #0c4da2; margin-right: 10px; font-size: 25px;}
+.join h4{font-size: 20px; margin: 30px 0 0 20px; position: relative;}
+.join h4::before{content: ''; width: 10px; height: 10px; background: #0c4da2;  position: absolute; top: 10px; left: -20px;}
+.join h4::after{content: '(필수)'; font-size: 14px; font-weight: 400; color: #186bb2; margin-left: 5px;}
+.join .policy{padding: 10px; overflow-y: scroll; height: 110px; margin: 20px 0; border: 1px solid #ddd; background: #fff; font-size: 14px; line-height: 1.5em;}
+.join .check{margin: 20px 0 60px;}
+.join .button{text-align: center; margin-top: 30px;}
+.join .button .ok, .join .button .cancel{display: inline-block; width: 160px;  padding: 10px 0; border: 1px solid #0c4da2; background: #0c4da2; color: #fff; cursor: pointer; margin: 0 8px;}
+.join .button .ok:hover, .join .button .cancel:hover{background: #fff; border: 1px solid #0c4da2; color: #0c4da2;}
+
+/* 체크박스를 다른 ui로 처리 */
+input[type=checkbox] + label::before {display: inline-block; width: 18px; height: 18px; background-color: transparent; border: 2px solid #999; border-radius: 50%; content: ''; margin: 0px 15px -6px 0px;}
+input[type=checkbox] {display: none;}
+input[type=checkbox] + label {cursor: pointer;}
+input[type=checkbox]:checked + label::before {background: #fff url(../images/check.png) center center no-repeat;border: 2px solid #0c4da2;}

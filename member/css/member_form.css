@@ -1,0 +1,22 @@
+body{background: #f9f9f9;}
+header .logo{position: relative;}
+header .logo a{display: block; background: url(../images/logo.png) center no-repeat; background-size: contain; width: 280px; height: 100px; text-indent: -999%; overflow: hidden; margin: 0 auto; position: absolute; top: -170px; left: 50%; margin-left: -150px;}
+
+#content{border-top: 7px solid #0c4da2; background: #fff; padding: 80px 30px; width: 900px; margin: 200px auto; font-family: 'Noto Sans KR', sans-serif; font-weight: 400; box-shadow: 5px 5px 10px rgba(0,0,0,.1);}
+#content h2{font-size: 36px; text-align: center; margin-bottom: 60px; letter-spacing: 2px;}
+#content p{text-align: right; color: #666; margin-bottom: 15px; padding-right: 15px;}
+
+table{width: 90%; margin: 0 5%}
+th,td{padding: 10px}
+th{width: 20%; text-align: left; font-size: 20px;}
+td{width: 80%; padding: 20px; position: relative;}
+input, select{padding: 10px; border-radius: 2px; font-size: 1.5em; border: 1px solid #ccc; width: 600px;}
+table tr:last-child td{text-align: center; padding: 20px 0}
+
+.butt a{width: 150px; display: inline-block; letter-spacing: .1em; background: #0c4da2; color: #fff; font-size: 20px; padding: 15px 30px; margin: 50px 10px 0;}
+.butt a:nth-last-child(1){background: #999;}
+
+#loadtext ,#loadtext2{position: absolute; top: 34px; right: 40px; font-size: 14px;}
+#hp1{width: 100px; text-align: center;}
+.hp{width: 226px; font-size: 16px;}
+#email1, #email2{width: 277px;}
